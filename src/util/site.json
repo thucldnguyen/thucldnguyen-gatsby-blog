@@ -1,12 +1,12 @@
 {
   "meta": {
-    "title": "Foundation",
+    "title": "Thuc Nguyen Blog",
     "titleTemplate": "%s",
-    "description": "A starter to launch your blazing fast personal website and a blog, Built with Gatsby and Netlify CMS. Made with ❤ by Stackrole",
-    "siteUrl": "https://foundation.stackrole.com",
+    "description": "Thuc Nguyen's personal blog about Test Automation and Product Management",
+    "siteUrl": "https://www.thucldnguyen.com",
     "image": "/assets/stackrole.png",
     "iconimage": "/assets/stackrole.png",
-    "twitterUsername": "@stackrole"
+    "twitterUsername": "@thucldnguyen"
   },
   "ga": "UA-XXXXXXXXX-X"
 }
