@@ -4,9 +4,9 @@
     "titleTemplate": "%s",
     "description": "Thuc Nguyen's personal blog about Test Automation and Product Management",
     "siteUrl": "https://www.thucldnguyen.com",
-    "image": "/assets/stackrole.png",
-    "iconimage": "/assets/stackrole.png",
+    "image": "/assets/logo-transparent.png",
+    "iconimage": "/assets/logo-transparent.png",
     "twitterUsername": "@thucldnguyen"
   },
-  "ga": "UA-XXXXXXXXX-X"
+  "ga": "UA-135004228-1"
 }

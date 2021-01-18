@@ -2,10 +2,10 @@
 template: index-page
 slug: /
 title: Thuc Nguyen
-tagline: Product Manager
+tagline: Personal Blog
 featuredImage: /assets/ava.jpg
 cta:
   ctaText: Know more
   ctaLink: /about
 ---
-Thuc Nguyen is Product Manager at LogiGear
+My personal blog about Product Management, and Test Automation
