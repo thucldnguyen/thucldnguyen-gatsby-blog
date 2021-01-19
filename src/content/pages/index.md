@@ -8,4 +8,4 @@ cta:
   ctaText: Know more
   ctaLink: /about
 ---
-My personal blog about Product Management, and Test Automation
+A blog about Product Management, Software Testing and Automated Testing.
