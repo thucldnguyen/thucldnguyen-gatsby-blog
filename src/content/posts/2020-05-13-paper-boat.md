@@ -1,31 +1,52 @@
 ---
 template: blog-post
-title: Character design
-slug: /character-design
-date: 2020-05-23 23:40
-description: How to draw a character
-featuredImage: /assets/andrew-seaman-4fi_4q6_efm-unsplash.jpg
+title: 3 Reasons Why Cypress is Heading in the Right Direction
+slug: reasons-why-cypress-is-heading-in-the-right-direction/
+date: 2020-12-04 00:01
+description: Cypress has its own unique approach to web automation and there are
+  good reasons they chose to approach it that way
+featuredImage: /assets/cypress-2.jpg
 ---
-In visual arts, a model sheet, also known as a character board, character sheet, character study or simply a study, is a document used to help standardize the appearance, poses, and gestures of a character in arts such as animation, comics, and video games.
+# \#1. Cypress Made Bold Trade-off
 
-Model sheets are required when [multiple artists](https://example.com) are involved in the production of an animated film, game, or comic to help maintain continuity in characters from scene to scene. In animation, one animator may only do one shot out of the several hundred that are required to complete an animated feature film. A character not drawn according to the production's standardized model is referred to as off-model.
+Bold trade-offs show the strength, and confidence of a product team. They eliminate ambiguity and help the team laser-focus on what’s most important. But making trade-offs is easier said than done. Most product teams avoid or worse, defer making trade-offs because like all other human beings, we’re afraid to be wrong and criticized.
 
-## For one beautiful night I knew what it was like to be a grandmother. Subjugated, yet honored.
+Take [Cypress ](https://www.cypress.io/)as an example. Right from the start, they’ve been supporting only Chrome and Chromium-based browsers (Canary and Electron). This decision has been booed by many critics. Cross-browser testing is the de-facto must-have in web testing. It’s hard to imagine that an automation tool not supporting cross-browser testing would survive. However, Cypress team put up with all the criticism and kept plowing ahead.
 
-Yes! In your face, Gandhi! Ah, yes! John Quincy Adding Machine. He struck a chord with the voters when he pledged not to go on a killing spree. What are their names? I could if you hadn't turned on the light and shut off my stereo.
+![Cypress only supports Chrome, Canary and Electron](/assets/cypress-1.png "Cypress only supports Chrome, Canary and Electron")
 
-1. Robot 1-X, save my friends! And Zoidberg!
-2. Soon enough.
-3. There's no part of that sentence I didn't like!
+I must admit I was one of those who doubted Cypress when I first stumbled upon it. However, later on, it dawned on me that they got a solid point here. Chrome eats up over [60% of the browser market share ](https://gs.statcounter.com/browser-market-share). Thanks to their predominant presence on the market, other browsers must play by its rules. Developers also prioritize making web apps that run smoothly on Chrome. Cross-browser testing became less and less important.
 
-### The key to victory is discipline, and that means a well made bed. You will practice until you can make your bed in your sleep.
+Cypress made a good choice here. That’s why I believe they’ll go places in the future.
 
-Why am I sticky and naked? Did I miss something fun? We're also Santa Claus! Soothe us with sweet lies. Hi, I'm a naughty nurse, and I really need someone to talk to. $9.95 a minute.
+# 2. Cypress Focuses on The Right Problems
 
-* That could be 'my' beautiful soul sitting naked on a couch. If I could just learn to play this stupid thing.
-* We'll need to have a look inside you with this camera.
-* Fry! Quit doing the right thing, you jerk!
+A lot have changed since the early-days of test automation. Back then, clicking a UI element on a particular platform was a serious technical challenge. Teams must spend time and effort in building the automation technologies that were fragile because platform owners (Microsoft, Apple, Android…) didn’t invest adequately in app testability. Whenever they made a disrupt API change, our automation frameworks were screwed.
 
-Who said that? SURE you can die! You want to die?! Aww, it's true. I've been hiding it for so long. I videotape every customer that comes in here, so that I may blackmail them later. Ah, computer dating. It's like pimping, but you rarely have to use the phrase "upside your head."
+Nowadays, all platform owners recognized the importance of automation and testability. And more engineers start automating their apps to maximize test coverage and speed. [WebDriver ](https://www.w3.org/TR/webdriver/)unprecedentedly became the first industry standard for web automation. Thus, clicking a button is no longer a big issue.
 
-Spare me your space age technobabble, Attila the Hun! We'll go deliver this crate like professionals, and then we'll go home. Aww, it's true. I've been hiding it for so long. Moving along… Please, Don-Bot… look into your hard drive, and open your mercy file!
+The attention now shifts to other problems:
+
+1. Smart waits
+2. Speed
+3. Maintainability
+4. Debugability
+5. Object mocking
+
+Cypress has solved these problems very cleverly. For instance, since Cypress basically lives inside Chrome, it knows the ins and outs of every intricacy within Chrome. Thus it can intelligently wait for UI elements to be ready before asserting them. Besides, Cypress automatically retries when it fails to carry out the interaction or assertion. With Selenium, you have to do this yourself.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0ZzKdjK1Buc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+How Cypress solves other problems are also brilliant. But let’s save those topics for another blog post.
+
+# 3. Cypress Adds its Own Highlight
+
+[Time travel ](https://docs.cypress.io/guides/getting-started/writing-your-first-test.html#Time-travel)helps Cypress shine. No other tools have this capability. Basically, you can step back to a past state of the web app to debug your test and your app.
+
+![Cypress Time Travel](/assets/cypress-3.png "Cypress Time Travel")
+
+
+
+## Conclusion
+
+Cypress has done a good job in making the automation experience more delightful. I can’t wait to see what they have up their sleeves in the near future. Happy testing!
