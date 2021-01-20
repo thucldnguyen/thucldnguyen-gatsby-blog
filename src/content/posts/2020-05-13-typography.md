@@ -2,7 +2,7 @@
 template: blog-post
 title: Tester Switching to Business Analyst – A Fast-Track Guide
 slug: /tester-to-business-analyst-guide/
-date: 2019-05-09 09:00
+date: 2019-03-18 09:00
 description: Tester Switching to Business Analyst – A Fast-Track Guide
 featuredImage: /assets/dream-job2.jpeg
 ---
