@@ -1,13 +1,13 @@
 ---
 template: blog-post
-title: 3 Reasons Why Cypress is Heading in the Right Direction
-slug: /reasons-why-cypress-is-heading-in-the-right-direction/
+title: Three Reasons Why Cypress is Heading in the Right Direction
+slug: /three-reasons-why-cypress-is-heading-in-the-right-direction/
 date: 2019-12-04 00:01
 description: Cypress has its own unique approach to web automation and there are
   good reasons they chose to approach it that way
 featuredImage: /assets/cypress-2.jpg
 ---
-# \#1. Cypress Made Bold Trade-off
+# 1. Cypress Made Bold Trade-off
 
 Bold trade-offs show the strength, and confidence of a product team. They eliminate ambiguity and help the team laser-focus on what’s most important. But making trade-offs is easier said than done. Most product teams avoid or worse, defer making trade-offs because like all other human beings, we’re afraid to be wrong and criticized.
 
