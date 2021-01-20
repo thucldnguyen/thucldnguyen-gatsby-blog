@@ -7,7 +7,7 @@ description: Free open-source automation frameworks are not actually zero cost.
   Their costs are just hidden out of sight. And we still have to pay somehow.
   This article discusses the merits of BUILD versus BUY when it comes to picking
   your Automation Framework.
-featuredImage: /assets/buy-or-build.png
+featuredImage: /assets/buy-or-build-3.png
 ---
 Have you ever wondered about whether you should BUY or BUILD? Over the years, I’ve seen many test teams at non-tech enterprises struggled with the same dilemma.  Should we adopt an open-source automation library like Selenium, WebDriverIO, Protractor, etc. to build our own framework? Or should we go shopping and finally settle down with a commercial out-of-the-box solution?
 
