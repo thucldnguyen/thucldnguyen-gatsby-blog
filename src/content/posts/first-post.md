@@ -1,53 +1,113 @@
 ---
 template: blog-post
-title: Book Shelf
-slug: /book-shelf
-date: 2019-07-10T00:00:00.000Z
-description: sdasd
-featuredImage: /assets/avery-klein-c_drtsnboqa-unsplash.jpg
+title: Best Alternatives to Selenium for Web Automation Testing in 2019
+slug: /best-alternatives-to-selenium/
+date: 2019-03-08 07:00
+description: Web automation testing for web apps is in huge demand. The global
+  test automation market is expected to reach USD 54.98 billion by 2022
+  according to Zion Market Research (source). And no other tools have outshone
+  Selenium in terms of fame and adoption so far. But, that’s about to change.
+featuredImage: /assets/featuredimg-bestalternatives.png
 ---
-Uh, is the puppy mechanical in any way? Maybe I love you so much I love you no matter who you are pretending to be. If rubbin' frozen dirt in your crotch is wrong, hey I don't wanna be right. I found what I need. And it's not friends, it's things.
+Web automation testing for web apps is in huge demand. The global test automation market is expected to reach **USD 54.98 billion** by 2022 according to Zion Market Research ([source](https://globenewswire.com/news-release/2017/07/25/1057737/0/en/Global-Test-Automation-Market-Will-Reach-USD-54-98-Billion-by-2022-Zion-Market-Research.html)). And no other tools have outshone Selenium in terms of fame and adoption so far. But, that’s about to change.
 
-That's the ONLY thing about being a slave. OK, if everyone's finished being stupid. Bender, we're trying our best. Fry! Stay back! He's too powerful! I just told you! **You've killed me!** *And yet you haven't said what I told you to say!* How can any of us trust you?
+Selenium has its own drawbacks. It might not be the best tool for you in your current situation. If you’re looking for alternatives to Selenium, I’ve curated a list of strong contenders below. Let me know what you think of the tools listed in the comment section.
 
-![Royal Mail](/assets/royal-mail-unsplash.jpg "Royal Mail from Unsplash")
+> NOTE
+>
+> * The tools are listed in no specific order. I didn’t rank them.
+> * This article expresses my personal opinion so yours might differ. Please share your thoughts in the comment section.
 
-## It doesn't look so shiny to me.
 
-No! I want to live! There are still too many things I don't own! It doesn't look so shiny to me. I'm just glad my fat, ugly mama isn't alive to see this day. Soon enough. I'm sure those windmills will keep them cool.
 
-![]()
+## 1. [Cypress](http://www.cypress.io/)
 
-1. Guards! Bring me the forms I need to fill out to have her taken away!
-2. Have you ever tried just turning off the TV, sitting down with your children, and hitting them?
-3. You, a bobsleder!? That I'd like to see!
+Cypress.io is an open-source NodeJS testing tool. Front-end developers love it so much thanks to its developer-friendly features. Most importantly, it’s very FAST compared to Selenium.
 
-### Daylight and everything.
+**Pros**
 
-A true inspiration for the children. Anyone who laughs is a communist! Can I use the gun? Oh, how I wish I could believe or understand that! There's only one reasonable course of action now: kill Flexo!
+* Lightning fast test execution. In fact, you’ll have to add artificial waits to watch the execution in slow motion.
+* Easy setup with npm
+* Beautiful test reports with screenshots and videos Good IDE to compose automated tests You can time-travel to investigate test failures since Cypress captures DOM snapshots of the web app during the entire execution
+* Live access to browser objects since Cypress practically lives inside the browser (Chrome)
 
-* Fry! Stay back! He's too powerful!
-* Look, last night was a mistake.
-* Please, Don-Bot… look into your hard drive, and open your mercy file!
+**Cons**
 
-And I'm his friend Jesus. One hundred dollars. There, now he's trapped in a book I wrote: a crummy world of plot holes and spelling errors! No! The cat shelter's on to me.
+* Only supports Chrome
+* No parallel execution
+* A little difficult for non-technical testers or newbies
 
-Fry! Quit doing the right thing, you jerk! I'm sure those windmills will keep them cool. I'm Santa Claus! Leela's gonna kill me. Then we'll go with that data file!
+## 2. [TestArchitect](http://testarchitect.com/)
 
-That's right, baby. I ain't your loverboy Flexo, the guy you love so much. You even love anyone pretending to be him! Bite my shiny metal ass. Tell them I hate them. Yeah, and if you were the pope they'd be all, "Straighten your pope hat." And "Put on your good vestments."
+TestArchitect is a commercial Keyword-Driven Testing tool. Testers with modest programming skills can learn it quickly thanks to an extensive keyword library. It’s very approachable to non-technical testers and newbies getting feet wet in the automation journey. However, that comes with a cost.
 
-That's a popular name today. Little "e", big "B"? Hey, whatcha watching? A sexy mistake. A true inspiration for the children. Shut up and get to the point!
+**Pros**
 
-Ven ve voke up, ve had zese wodies. Oh, all right, I am. But if anything happens to me, tell them I died robbing some old man. So, how 'bout them Knicks? Oh Leela! You're the only person I could turn to; you're the only person who ever loved me.
+* Complete feature set for test development, test execution and test management
+* Friendly to non-technical testers, business analysts or domain experts
+* Spreadsheet IDE, no coding
+* You’re able to write cross-platform tests ranging from desktop, web, mobile, API, database, etc.
+* Can be integrated with many ALM tools like Team Foundation Server, Zephyr, Jenkins, etc.
 
-Shut up and get to the point! Take me to your leader! I can explain. It's very valuable. You guys realize you live in a sewer, right?
+**Cons**
 
-Robot 1-X, save my friends! And Zoidberg! Oh Leela! You're the only person I could turn to; you're the only person who ever loved me. I guess because my parents keep telling me to be more ladylike. As though!
+* Cannot integrate with Git for version control of test artifacts (TestArchitect has its own built-in version control)
+* Slower than Selenium a bit
+* Commercial product so you have to pay. However, they do offer TestArchitect Team — free version with limited number of test cases.
 
-I daresay that Fry has discovered the smelliest object in the known universe! Oh right. I forgot about the battle. Oh dear! She's stuck in an infinite loop, and he's an idiot! Well, that's love for you.
+## 3. Gauge
 
-You wouldn't. Ask anyway! Is today's hectic lifestyle making you tense and impatient? Ven ve voke up, ve had zese wodies. Doomsday device? Ah, now the ball's in Farnsworth's court!
+Gauge was made by ThoughtsWork, the same company that built Selenium. Gauge focuses on productivity by introducing less code thus less maintenance. It can work with many automation tools. And guess what? It works with Selenium too.
 
-Fatal. Maybe I love you so much I love you no matter who you are pretending to be. Really?! You can see how I lived before I met you. Alright, let's mafia things up a bit. Joey, burn down the ship. Clamps, burn down the crew.
+**Pros**
 
-Enough about your promiscuous mother, Hermes! We have bigger problems. Bender, being God isn't easy. If you do too much, people get dependent on you, and if you do nothing, they lose hope. You have to use a light touch. Like a safecracker, or a pickpocket.
+* Write tests in markdown so tests are easy to read
+* Support many programming languages, automation tools and CI/CD tools
+
+**Cons**
+
+* Not popular
+* Frustrating setup
+
+## 4. Tricentis Tosca
+
+Tricentis provides a wide support for virtually all test activities. They offer customers a Continuous Testing platform that covers test design, UI testing, API testing, service virtualization and test data management. With the recent acquisition of QASymphony, Tricentis further expand their offering scope to test management.
+
+**Pros**
+
+* Tosca is easier to adopt by non-technical testers since it’s keyword-driven
+* Comprehensive support for Continuous Testing
+* Supports [Cross Browser Testing](https://thucldnguyen.com/web-automation-testing/cross-browser-testing-still-relevant/)
+* Model-based approach improves productivity
+* Gartner ranked the tool as one of the leaders in their recent automation testing reports
+
+**Cons**
+
+* Model-based approach creates unnecessary maintenance problems
+* Too much clicking when writing tests
+
+## 5. [Mabl](http://mabl.com/)
+
+Mabl made headlines last year thanks to the $20 million investment from Google Venture. Its main selling point: you no longer need to worry about UI changes because tests are auto-healed by AI. That’s a very tempting value proposition that scratches the right spot on the backs of many testers.
+
+**Pros**
+
+* Less maintenance effort and faster test creation
+* Cross browser testing
+* SaaS so you don’t have to install anything besides a Chrome extension
+* Your tests (or so called user journeys) are automatically run on a regular basis
+* AI-powered visual change detection
+* Responsive web testing
+
+**Cons**
+
+* Convenience comes with a cost (SaaS)
+* You cannot change the element locators that Mabl use to find UI controls even if you’re 100% sure that your locator is the best.
+
+# Conclusion
+
+This list was composed as of early 2019. The tool market for automation testing is very competitive. So you can expect radical changes and innovative features being introduced everyday. If you spot some outdated information, please let me know. I’ll fix ASAP.
+
+Have you seen better Selenium alternatives not listed above? Comment the tool names and why you think they are the best below.
+
+If you like what you read, subscribe to my newsletter [here](https://thucldnguyen.com/newsletter-subscription/).
