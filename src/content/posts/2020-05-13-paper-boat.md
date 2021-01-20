@@ -2,7 +2,7 @@
 template: blog-post
 title: 3 Reasons Why Cypress is Heading in the Right Direction
 slug: reasons-why-cypress-is-heading-in-the-right-direction/
-date: 2020-12-04 00:01
+date: 2019-12-04 00:01
 description: Cypress has its own unique approach to web automation and there are
   good reasons they chose to approach it that way
 featuredImage: /assets/cypress-2.jpg
