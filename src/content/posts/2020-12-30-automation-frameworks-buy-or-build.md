@@ -38,7 +38,7 @@ Who is going to fix framework bugs? Let’s say the most basic click() & sendKey
 
 To be fair, these community developers churn out code for free. They’re already doing a pro-bono for society so we should thank them and patiently wait for the bug fixes, as long as it takes… maybe years. Otherwise, you have to fork the project and fix them on your own. That leads back to Problem #1.
 
-![Fastest way to fix bugs (source: The IT Crowd)](/assets/developer-fix-bug.gif "Fastest way to fix bugs (source: The IT Crowd)")
+<img src="/assets/developer-fix-bug.gif" alt="Fastest way to fix bugs (source: The IT Crowd)"/>
 
 With a commercial tool, you have a Customer Support team to yell at and some engineers behind the scene to fix bugs for you. Customers are king so even when your test requirements are quite far away from the traditional paths, you can still ask the vendors to customize their solution for you. Better right?
 
