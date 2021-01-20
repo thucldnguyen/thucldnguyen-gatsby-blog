@@ -1,51 +1,114 @@
 ---
-title: Typography
 template: blog-post
-date: 2020-05-13 09:19
-slug: /typography
-featuredImage: /assets/alexander-andrews-zw07kvdahpw-unsplash.jpg
-description: metaphorically make a deal with the devil
+title: Tester Switching to Business Analyst – A Fast-Track Guide
+slug: /tester-to-business-analyst-guide/
+date: 2019-05-09 09:00
+description: Tester Switching to Business Analyst – A Fast-Track Guide
+featuredImage: /assets/dream-job2.jpeg
 ---
-\# When will that be?\
-\
-I haven't felt much of anything since my guinea pig died. Oh, but you can. But you may have to metaphorically make a deal with the devil. And by "devil", I mean Robot Devil. And by "metaphorically", I mean get your coat.\
-\
-We'll go deliver this crate like professionals, and then we'll go home. Leela, are you alright? \_\_You got wanged on the head.\_\_ \*Dear God, they'll be killed on our doorstep!\* And there's no trash pickup until January 3rd.\
-\
-## Bender, you risked your life to save me!\
-\
-Fry! Stay back! He's too powerful! That's right, baby. I ain't your loverboy Flexo, the guy you love so much. You even love anyone pretending to be him! You, minion. Lift my arm. AFTER HIM! When will that be?\
-\
-1. All I want is to be a monkey of moderate intelligence who wears a suit… that's why I'm transferring to business school!\
-2. Leela, Bender, we're going grave robbing.\
-3. A true inspiration for the children.\
-\
-### Would you censor the Venus de Venus just because you can see her spewers?\
-\
-And then the battle's not so bad? I don't 'need' to drink. I can quit anytime I want! Why would a robot need to drink? A true inspiration for the children. You can crush me but you can't crush my spirit!\
-\
-* Is today's hectic lifestyle making you tense and impatient?\
-* Ow, my spirit!\
-* This opera's as lousy as it is brilliant! Your lyrics lack subtlety. You can't just have your characters announce how they feel. That makes me feel angry!\
-\
-You lived before you met me?! With a warning label this big, you know they gotta be fun! Wow! A superpowers drug you can just rub onto your skin? You'd think it would be something you'd have to freebase.\
-\
-It's a T. It goes "tuh". Oh, I think we should just stay friends. Yes. You gave me a dollar and some candy. Tell her you just want to talk. It has nothing to do with mating. Fry! Stay back! He's too powerful!\
-\
-We're also Santa Claus! I guess because my parents keep telling me to be more ladylike. As though! I decline the title of Iron Cook and accept the lesser title of Zinc Saucier, which I just made up. Uhh… also, comes with double prize money.\
-\
-Good man. Nixon's pro-war and pro-family. Yes. You gave me a dollar and some candy. Bender! Ship! Stop bickering or I'm going to come back there and change your opinions manually! That's the ONLY thing about being a slave.\
-\
-Fry, we have a crate to deliver. And remember, don't do anything that affects anything, unless it turns out you were supposed to, in which case, for the love of God, don't not do it! I never loved you.\
-\
-Fry! Stay back! He's too powerful! One hundred dollars. Whoa a real live robot; or is that some kind of cheesy New Year's costume? I haven't felt much of anything since my guinea pig died. WINDMILLS DO NOT WORK THAT WAY! GOOD NIGHT!\
-\
-Okay, I like a challenge. Then we'll go with that data file! I didn't ask for a completely reasonable excuse! I asked you to get busy! Is the Space Pope reptilian!? Yes, I saw. You were doing well, until everyone died.\
-\
-Ask her how her day was. Do a flip! In your time, yes, but nowadays shut up! Besides, these are adult stemcells, harvested from perfectly healthy adults whom I killed for their stemcells. Have you ever tried just turning off the TV, sitting down with your children, and hitting them?\
-\
-I'm just glad my fat, ugly mama isn't alive to see this day. I am Singing Wind, Chief of the Martians. Interesting. No, wait, the other thing: tedious. Hey, you add a one and two zeros to that or we walk!\
-\
-Dear God, they'll be killed on our doorstep! And there's no trash pickup until January 3rd. Why yes! Thanks for noticing. You don't know how to do any of those. Well I'da done better, but it's plum hard pleading a case while awaiting trial for that there incompetence.\
-\
-Who's brave enough to fly into something we all keep calling a death sphere? Yep, I remember. They came in last at the Olympics, then retired to promote alcoholic beverages! It doesn't look so shiny to me.
+Let’s be honest. Money is important. It’s often the top factor that motivates a career switch. Who doesn’t love a bumped-up salary? The charts below show how much business analysts are making on average compared to software testers (QA) (source: [Glassdoor](https://www.glassdoor.com/Salaries)).
+
+![Difference in salaries between BA and QA](/assets/salaries.png "Difference in salaries between BA and QA")
+
+Since there’s a significant gap between testers and business analysts, some testers decide to make the jump. So you’re excited about switching from software testing to a business analyst (BA)? Cool! Let’s get started.
+
+## Why Read This?
+
+I started my career out as a BA, not a tester. But I have my fair share of knowledge about testers and the nitty-gritty of their jobs since testers are the end-users of the products I manage. It’s my duty to view the world through the lens of testers. Thanks to this unique perspective, I could promise you some useful insights that smooths out the transition from tester to BA.
+
+## Why Business Analysis?
+
+Before embarking on this risky albeit exciting journey, you should make up your mind first. It’s worthwhile to spend some time thinking through the questions below.
+
+#### Do you actually want to leave the software testing profession?
+
+Software testing is a prestigious profession and there’s a lot to it. As a tester, you have a long and fruitful road ahead. You could progress from manual testing to automation testing. You could get promoted to QA Lead, QA Consultant, QA Manager, and even Test Architect. So don’t leave the software testing profession just because you think it lacks upward mobility or excitement.
+
+#### What are the headaches your future self must deal with day by day as a BA?
+
+As a BA, you must be passionate about communicating with customers, understanding what they want versus what they need, skillfully extracting the hidden information that you don’t or forget tell you, writing many documents and religiously keeping those documents up to date, etc. All of those tasks make up a typical day of a BA. Be sure that you love the BA challenges before moving on.
+
+#### Are you quitting with good reasons?
+
+Are you quitting because you’re bored or because testing is too hard? If you quit because you cannot manage to get your testing works done on time and with high quality, I’m sorry to say BA is not the career for you. If you quit because you do your job so well you feel bored, good! You are ahead of the game. Some of the testing skills you already have are extremely valuable to your future BA role.
+
+## Business Analysis Skills
+
+There are 3 primary skill sets that every BA must have:
+
+1. Analytical skills
+2. Communication skills
+3. Technical skills
+
+I’ve drawn a diagram to illustrate the relationships between these skills and the day-to-day tasks of BA below.
+
+![Business Analysis Skills](/assets/business-analysis-skills-diagram.jpg "Business Analysis Skills")
+
+Note that the diagram doesn’t exhaustively describe the myriad of tasks that a BA must do. There are plenty more but you got the gist of it.
+
+## Your Valuable Assets As a Tester
+
+As I said, if you’re a top-notch tester, you have some serious advantages compared to other starting points such as developers, UX designers, customer support engineers, sales/marketing, fresh graduates from business disciplines, etc. So what are your advantages as a tester?
+
+#### Analytical skills
+
+1. Congrats! You already ace requirement #1. Analyzing something just means examining each and every part of it thoroughly. Sounds familiar? As a tester, you have certainly analyzed a lot of software implementations with great attention to details to find bugs. This second-nature of yours is a big advantage.
+2. You often read, analyze and review software requirement specifications. A tester sometimes works with those documents as much as a BA. So you won’t find yourself lost in those document forest any more than a typical BA.
+3. You have great **critical thinking**. Testers and BAs alike must not gobble up information mindlessly. They stop and think, poke holes in customer requirements, and eliminate ambiguity.
+4. A core duty of a BA is performing acceptance tests before presenting the new features to the clients. So basically, a BA is a tester.
+
+#### Communication skills
+
+Communication skills (requirement #2) are hard to measure. I’ll let you evaluate your own communication skills. If people understand exactly what you mean and you also understand them, that’s enough.
+
+#### Technical skills
+
+You might not be as technical (requirement #3) as a developer transitioning to BA. But if you start out as an test automation engineer, you’re already familiar with IDEs, certain programming languages, and certain software patterns. This knowledge makes you a far better candidate than those business or UX people trying to be BA.
+
+#### Other advantages
+
+If you switch from tester to BA within the same project, you get ahead even more. Since the software you’re testing now becomes the software you analyze, you already know the inner workings of the software as well as the domain that the software is operating in.
+
+You know what’s best? Becoming a BA of a software testing product!
+
+## I’m Confident. Where Do I Start?
+
+After you make up your mind and understand your advantages, it’s now time to get started.
+
+![Tester to business analyst journey](/assets/tester-to-ba.png "Tester to business analyst journey")
+
+
+
+#### \#1. Start learning
+
+##### Techniques
+
+The body of knowledge you need to learn heavily falls into the category of skills and techniques, not so much about tools and technology.
+
+Go to your local training center or sign up to an online courses. I’d prefer online learning since it’s cost-effective and convenient. Fundamental skills you should learn include: how to prototype, how to identify stakeholders and define responsibility matrixes, how to define SMART requirements, how to elicit information from the customers/clients, how to write and prioritize requirements, and more. Remember to practice any new skills you learn.
+
+##### Tools
+
+You should know nothing fancy but Word, Excel, and PowerPoint or any other word processing, spreadsheet and presentation alternatives. On top of that, you should learn to present your ideas visually using prototyping tools like Balsamiq, MS Paint, Inkscape or even the good old pencil sketches.
+
+##### Technology
+
+It depends largely on the industry and the technology of your product. Most BA nowadays work with web technologies such as ReactJS, Angular, VueJS, etc. and mobile technologies such as ReactNative, Android, iOS, etc. That’s not to say you should exclude other techs such as COBOL, ERP, Java, .NET, etc. Understanding these techs helps you appreciate the technical constraints you operate within.
+
+#### \#2. Earn BA certificates (optional)
+
+Some big companies require you to acquire a CBAP (Certified Business Analysis Professional) certificate issued by IIBA (International Institute of Business Analysis) or other certificates such as CABA (Certified Associate Business Analyst) or CSBA (Certified Software Business Analyst). However, I’ve observed the decline in popularity of these certificates. Some experts even advise you to take an MBA course but I definitely doubt the benefits of an MBA degree. It’s simply an overkill.
+
+#### \#3. Earn industry-specific certifications (optional)
+
+You are not required to spend too much money on these certifications. Those papers are nice to have. Unless your target industry is highly regulated, you might skip this step. That said, if you have these certificates, your candidacy greatly improves. For instance, you boost your credibility by having a CPHIMS certificate if you intend to work on healthcare information systems.
+
+#### \#4. Prepare for the interview
+
+Brushing up your CV, aligning the specifics your career to the future job, sending your CV to potential employers, mental rehearsals, showing up in the interview, tell your story and get the job. If you got rejected, no problems. Start shooting down other job openings. Remember to focus on the advantages you got (reread the section above).
+
+## Final Thoughts
+
+A business analyst is a bridge between the business and the development. The job is critical to the success of the software development and deployment. Besides the nice pay, it offers exciting challenges as well as learning and leading opportunities. If you have passion for business analysis, try your best to pursue it. Remember that you already got ahead of the game starting out as a software tester. Good luck!
+
+**Do you find this article useful? Leave your comments below. If you like what you read, subscribe to my newsletter [here](https://thucldnguyen.com/newsletter-subscription/).**
