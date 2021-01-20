@@ -1,325 +1,72 @@
 ---
 template: blog-post
-slug: /markdown
-date: 2020-05-09T05:53:16.102Z
-title: "Markdown: Syntax"
-featuredImage: /assets/mike-dorner-sf_1ZDA1YFw-unsplash.jpg
+title: Best Blogs to Learn and Evolve for Test Automation Engineers
+slug: /best-blogs-to-learn-and-evolve-for-test-automation-engineers/
+date: 2019-03-08 12:00
+description: New testers often ask me what are the best sites to sharpen their
+  saw. So I composed this list of news sources that I frequently check to stay
+  up to date with new trends in the industry. Let me know if you have other
+  valuable sources that you often reference in the comment section.
+featuredImage: /assets/learn.jpg
 ---
+New testers often ask me what are the best sites to sharpen their saw. So I composed this list of news sources that I frequently check to stay up to date with new trends in the industry. Let me know if you have other valuable sources that you often reference in the comment section.
 
-## Overview
+# \#1. [Joecolantonio.com](http://www.joecolantonio.com/)
 
-### Philosophy
+Joe is a genius in software testing. He offers great insights through his captivating newsletters as well as well-written blog posts. He also does a lot of podcasts with famous influencers in our industry. If you’re new to software testing and test automation, I’d suggest you pick his blog as the starting point. Check out his site at [www.joecolantonio.com](http://www.joecolantonio.com/).
 
-Markdown is intended to be as easy-to-read and easy-to-write as is feasible.
+# \#2. [techwell.com](http://www.techwell.com/)
 
-Readability, however, is emphasized above all else. A Markdown-formatted
-document should be publishable as-is, as plain text, without looking
-like it's been marked up with tags or formatting instructions. While
-Markdown's syntax has been influenced by several existing text-to-HTML
-filters -- including [Setext](http://docutils.sourceforge.net/mirror/setext.html), [atx](http://www.aaronsw.com/2002/atx/), [Textile](http://textism.com/tools/textile/), [reStructuredText](http://docutils.sourceforge.net/rst.html),
-[Grutatext](http://www.triptico.com/software/grutatxt.html), and [EtText](http://ettext.taint.org/doc/) -- the single biggest source of
-inspiration for Markdown's syntax is the format of plain text email.
+Techwell is a prestigious institution in software testing. They organize the famous STAREAST and STARTWEST software testing conferences every year. Thousands of attendants have learned a lot from these conferences. If you don’t have the luxury of going to their conferences, check out their site to find useful articles from the guest speakers and bloggers instead.
 
-## Block Elements
+# \#3. [LogiGear Blog](http://www.logigear.com/blog/) | [Magazine](https://www.logigear.com/magazine/)
 
-### Paragraphs and Line Breaks
+LogiGear is a Silicon Valley veteran (founded in 1994). They specialize in software testing services and tools. You’ll find their blog and magazine (two separate venues) populated by articles about testing best practices and other insights. Some of the most popular posts are:
 
-A paragraph is simply one or more consecutive lines of text, separated
-by one or more blank lines. (A blank line is any line that looks like a
-blank line -- a line containing nothing but spaces or tabs is considered
-blank.) Normal paragraphs should not be indented with spaces or tabs.
+* <https://www.logigear.com/blog/test-automation/15-best-practices-for-building-an-awesome-protractor-framework/>
+* <https://www.logigear.com/magazine/test-automation/guide-automated-voice-apps-testing/>
+* <https://www.logigear.com/magazine/test-automation/top-10-testing-trends-for-2017/>
+* <https://www.logigear.com/blog/test-automation/building-a-selenium-framework-from-a-to-z/>
+* <https://www.logigear.com/blog/test-methods/keyword-driven-testing-the-best-practices-you-cant-afford-to-miss/>
 
-The implication of the "one or more consecutive lines of text" rule is
-that Markdown supports "hard-wrapped" text paragraphs. This differs
-significantly from most other text-to-HTML formatters (including Movable
-Type's "Convert Line Breaks" option) which translate every line break
-character in a paragraph into a `<br />` tag.
+# \#4. [Applitools Blog](https://applitools.com/blog)
 
-When you *do* want to insert a `<br />` break tag using Markdown, you
-end a line with two or more spaces, then type return.
+If you love visual testing and the record-n-playback tool Selenium IDE, this blog is your best friend. Applitools indeed spearheads the rewrite of Selenium IDE to make it more reliable and appealing to less-technical testers.
 
-### Headers
+# \#5. [Asktester](https://www.asktester.com/)
 
-Markdown supports two styles of headers, [Setext] [1] and [atx] [2].
+The creator of this blog, Thanh Huynh usually writes about testing and test automation. He has composed many useful curated lists and guides for testers who want to improve their skills and climb the career ladder faster. I definitely recommend it.
 
-Optionally, you may "close" atx-style headers. This is purely
-cosmetic -- you can use this if you think it looks better. The
-closing hashes don't even need to match the number of hashes
-used to open the header. (The number of opening hashes
-determines the header level.)
+# \#6. [Blazemeter Blog](https://www.blazemeter.com/blog)
 
+If you’re interested in performance testing, especially Apache JMeter, Blazemeter is a good place to start. They write often and their posts are on topic.
 
-### Blockquotes
+# \#7. [DZone](https://dzone.com/)
 
-Markdown uses email-style `>` characters for blockquoting. If you're
-familiar with quoting passages of text in an email message, then you
-know how to create a blockquote in Markdown. It looks best if you hard
-wrap the text and put a `>` before every line:
+This blog is not written for testers. You’ll find stuff related to software development in general. As a tester, we should check out what are the hot technologies out there to continuously learn and stay on top of our job.
 
-> This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
-> consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
-> Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
-> 
-> Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
-> id sem consectetuer libero luctus adipiscing.
+# \#8. [James Bach](http://www.satisfice.com/blog/)
 
-Markdown allows you to be lazy and only put the `>` before the first
-line of a hard-wrapped paragraph:
+Have you ever heard of [James Bach](https://twitter.com/jamesmarcusbach)? He’s the famous guy who invented Behavior-Driven Development (BDD). Take a sneak peek inside his brilliant mind by reading his blog. You’ll find interesting testing ideas there.
 
-> This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
-consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
-Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+# \#9. [Saucelabs Blog](https://saucelabs.com/blog)
 
-> Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
-id sem consectetuer libero luctus adipiscing.
+Love Selenium? Why not reading this blog from one of the serious backers of the Selenium project? Saucelabs also organizes conferences called SauceCon.
 
-Blockquotes can be nested (i.e. a blockquote-in-a-blockquote) by
-adding additional levels of `>`:
+# \#10. [SmartBear Blog](https://blog.smartbear.com/blog/)
 
-> This is the first level of quoting.
->
-> > This is nested blockquote.
->
-> Back to the first level.
+SmartBear are the creators of many famous test automation tools such as SoapUI Pro and TestComplete. They made headlines last year by acquiring Zephyr, a test management tool. Their blog will give you many good insights on their products.
 
-Blockquotes can contain other Markdown elements, including headers, lists,
-and code blocks:
+# \#11. [Software Testing Magazine](http://www.softwaretestingmagazine.com/)
 
-> ## This is a header.
-> 
-> 1.   This is the first list item.
-> 2.   This is the second list item.
-> 
-> Here's some example code:
-> 
->     return shell_exec("echo $input | $markdown_script");
+The name is self-explanatory. What will you find there? Software testing stuff of course.
 
-Any decent text editor should make email-style quoting easy. For
-example, with BBEdit, you can make a selection and choose Increase
-Quote Level from the Text menu.
+# \#12. [TechBeacon](https://techbeacon.com/)
 
+TeachBeacon is a blog about application development, testing, DevOps and many more. It’s sponsored by a giant in software named MicroFocus. Have you ever heard of QTP/UFT? MicroFocus is the company currently owning QTP/UFT.
 
-### Lists
+# Final Thoughts
 
-Markdown supports ordered (numbered) and unordered (bulleted) lists.
+The list is not exhaustive but I’ll try to add more as soon as I stumble upon an interesting resource. Hopefully this list can help you learn more and test more. Happy testing! Remember to shout out your favorite learning resources in the comment section.
 
-Unordered lists use asterisks, pluses, and hyphens -- interchangably
--- as list markers:
-
-*   Red
-*   Green
-*   Blue
-
-is equivalent to:
-
-+   Red
-+   Green
-+   Blue
-
-and:
-
--   Red
--   Green
--   Blue
-
-Ordered lists use numbers followed by periods:
-
-1.  Bird
-2.  McHale
-3.  Parish
-
-It's important to note that the actual numbers you use to mark the
-list have no effect on the HTML output Markdown produces. The HTML
-Markdown produces from the above list is:
-
-If you instead wrote the list in Markdown like this:
-
-1.  Bird
-1.  McHale
-1.  Parish
-
-or even:
-
-3. Bird
-1. McHale
-8. Parish
-
-you'd get the exact same HTML output. The point is, if you want to,
-you can use ordinal numbers in your ordered Markdown lists, so that
-the numbers in your source match the numbers in your published HTML.
-But if you want to be lazy, you don't have to.
-
-To make lists look nice, you can wrap items with hanging indents:
-
-*   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-    Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,
-    viverra nec, fringilla in, laoreet vitae, risus.
-*   Donec sit amet nisl. Aliquam semper ipsum sit amet velit.
-    Suspendisse id sem consectetuer libero luctus adipiscing.
-
-But if you want to be lazy, you don't have to:
-
-*   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,
-viverra nec, fringilla in, laoreet vitae, risus.
-*   Donec sit amet nisl. Aliquam semper ipsum sit amet velit.
-Suspendisse id sem consectetuer libero luctus adipiscing.
-
-List items may consist of multiple paragraphs. Each subsequent
-paragraph in a list item must be indented by either 4 spaces
-or one tab:
-
-1.  This is a list item with two paragraphs. Lorem ipsum dolor
-    sit amet, consectetuer adipiscing elit. Aliquam hendrerit
-    mi posuere lectus.
-
-    Vestibulum enim wisi, viverra nec, fringilla in, laoreet
-    vitae, risus. Donec sit amet nisl. Aliquam semper ipsum
-    sit amet velit.
-
-2.  Suspendisse id sem consectetuer libero luctus adipiscing.
-
-It looks nice if you indent every line of the subsequent
-paragraphs, but here again, Markdown will allow you to be
-lazy:
-
-*   This is a list item with two paragraphs.
-
-    This is the second paragraph in the list item. You're
-only required to indent the first line. Lorem ipsum dolor
-sit amet, consectetuer adipiscing elit.
-
-*   Another item in the same list.
-
-To put a blockquote within a list item, the blockquote's `>`
-delimiters need to be indented:
-
-*   A list item with a blockquote:
-
-    > This is a blockquote
-    > inside a list item.
-
-To put a code block within a list item, the code block needs
-to be indented *twice* -- 8 spaces or two tabs:
-
-*   A list item with a code block:
-
-        <code goes here>
-
-### Code Blocks
-
-Pre-formatted code blocks are used for writing about programming or
-markup source code. Rather than forming normal paragraphs, the lines
-of a code block are interpreted literally. Markdown wraps a code block
-in both `<pre>` and `<code>` tags.
-
-To produce a code block in Markdown, simply indent every line of the
-block by at least 4 spaces or 1 tab.
-
-```javascript
-import React from "react"
-import { Link, useStaticQuery, graphql } from "gatsby"
-import Navigation from "../components/navigation"
-
-export default ({ children }) => {
-  const data = useStaticQuery(
-    graphql`
-      query {
-        site {
-          siteMetadata {
-            title
-          }
-        }
-      }
-    `
-  )
-  return (
-    <div className="site-wrapper">
-      <header className="site-header">
-        <div className="site-title">
-          <Link to="/">{data.site.siteMetadata.title}</Link>
-        </div>
-        <Navigation />
-      </header>
-      {children}
-    </div>
-  )
-}
-```
-
-This is a normal paragraph:
-
-`This is a code block.`
-
-Here is an example of AppleScript:
-
-    tell application "Foo"
-        beep
-    end tell
-
-A code block continues until it reaches a line that is not indented
-(or the end of the article).
-
-Within a code block, ampersands (`&`) and angle brackets (`<` and `>`)
-are automatically converted into HTML entities. This makes it very
-easy to include example HTML source code using Markdown -- just paste
-it and indent it, and Markdown will handle the hassle of encoding the
-ampersands and angle brackets. For example, this:
-
-    <div class="footer">
-        &copy; 2004 Foo Corporation
-    </div>
-
-![Royal Mail](/assets/royal-mail-unsplash.jpg)
-
-Regular Markdown syntax is not processed within code blocks. E.g.,
-asterisks are just literal asterisks within a code block. This means
-it's also easy to use Markdown to write about Markdown's own syntax.
-
-```shell
-tell application "Foo"
-    beep
-end tell
-```
-
-## Span Elements
-
-### Links
-
-Markdown supports two style of links: *inline* and *reference*.
-
-In both styles, the link text is delimited by [square brackets].
-
-To create an inline link, use a set of regular parentheses immediately
-after the link text's closing square bracket. Inside the parentheses,
-put the URL where you want the link to point, along with an *optional*
-title for the link, surrounded in quotes. For example:
-
-This is [an example](http://example.com/) inline link.
-
-[This link](http://example.net/) has no title attribute.
-
-### Emphasis
-
-Markdown treats asterisks (`*`) and underscores (`_`) as indicators of
-emphasis. Text wrapped with one `*` or `_` will be wrapped with an
-HTML `<em>` tag; double `*`'s or `_`'s will be wrapped with an HTML
-`<strong>` tag. E.g., this input:
-
-*single asterisks*
-
-_single underscores_
-
-**double asterisks**
-
-__double underscores__
-
-### Code
-
-To indicate a span of code, wrap it with backtick quotes (`` ` ``).
-Unlike a pre-formatted code block, a code span indicates code within a
-normal paragraph. For example:
-
-Use the `printf()` function.
-
-<iframe src="https://sunflower-business-mobi.netlify.app/" width="600" height="400"></iframe>
+If you like what you read, subscribe to my newsletter [here](https://thucldnguyen.com/newsletter-subscription/).
