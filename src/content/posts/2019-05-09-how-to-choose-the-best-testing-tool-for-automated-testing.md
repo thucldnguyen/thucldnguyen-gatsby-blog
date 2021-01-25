@@ -1,7 +1,7 @@
 ---
 template: blog-post
 title: How to Choose the Best Testing Tool for Automated Testing
-slug: /how-to-choose-the-best-testing-tool-for-automated-testing/
+slug: /blog/how-to-choose-the-best-testing-tool-for-automated-testing/
 date: 2019-05-09 12:00
 description: Test Automation framework should meet such as supported automation
   platforms (desktop, web or mobile?), usability, maintainability, stability,

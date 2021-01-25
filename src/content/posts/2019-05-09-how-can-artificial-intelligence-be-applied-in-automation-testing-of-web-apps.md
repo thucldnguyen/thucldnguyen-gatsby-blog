@@ -1,7 +1,7 @@
 ---
 template: blog-post
 title: How Can Artificial Intelligence be Applied in Automation Testing of Web Apps?
-slug: /how-can-artificial-intelligence-be-applied-in-automation-testing-of-web-apps/
+slug: /blog/how-can-artificial-intelligence-be-applied-in-automation-testing-of-web-apps/
 date: 2019-05-09 00:01
 description: "There are several interesting web app automation scenarios that we
   can improve using AI: Increase test execution stability (self-healing

@@ -1,7 +1,7 @@
 ---
 template: blog-post
 title: 5 Pitfalls You Should Consider Before Adopting Cypress
-slug: /cypress-pitfalls/
+slug: /blog/cypress-pitfalls/
 date: 2019-03-15 12:00
 description: Cypress is by no doubts on the rise. It got 318,244 weekly
   downloads as of the week of 8-Mar-2019. Aside from a short deep dive in the
