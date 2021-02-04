@@ -1,8 +1,6 @@
 ---
 template: blog-post
 title: "Cross Browser Testing: Why is It Still Relevant Although Some May Say Otherwise?"
-redirect_from:
-  - /web-automation-testing/cross-browser-testing-still-relevant/
 slug: /blog/web-automation-testing/cross-browser-testing-still-relevant/
 date: 2019-03-01 16:00
 description: A wave of new test automation tools argue that Cross Browser

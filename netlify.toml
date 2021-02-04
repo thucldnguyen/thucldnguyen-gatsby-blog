@@ -7,3 +7,91 @@
 
 [[plugins]]
   package = "netlify-plugin-gatsby-cache"
+
+[[redirects]]
+  from = "/web-automation-testing/cross-browser-testing-still-relevant/"
+  to = "/blog/web-automation-testing/cross-browser-testing-still-relevant/"
+  status = 301
+  force = true
+  query = {path = ":path"}
+  conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}
+
+[[redirects]]
+  from = "/web-automation-testing/best-alternatives-to-selenium/"
+  to = "/blog/web-automation-testing/best-alternatives-to-selenium/"
+  status = 301
+  force = true
+  query = {path = ":path"}
+  conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}
+
+[[redirects]]
+  from = "/career-advice/best-blogs-to-learn-and-evolve-for-test-automation-engineers/"
+  to = "/blog/career-advice/best-blogs-to-learn-and-evolve-for-test-automation-engineers/"
+  status = 301
+  force = true
+  query = {path = ":path"}
+  conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}
+
+[[redirects]]
+  from = "/web-automation-testing/cypress-pitfalls/"
+  to = "/blog/web-automation-testing/cypress-pitfalls/"
+  status = 301
+  force = true
+  query = {path = ":path"}
+  conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}
+
+[[redirects]]
+  from = "/tech-news/skype-for-web-software-testing/"
+  to = "/blog/tech-news/skype-for-web-software-testing/"
+  status = 301
+  force = true
+  query = {path = ":path"}
+  conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}
+
+[[redirects]]
+  from = "/career-advice/tester-to-business-analyst-guide/"
+  to = "/blog/career-advice/tester-to-business-analyst-guide/"
+  status = 301
+  force = true
+  query = {path = ":path"}
+  conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}
+
+[[redirects]]
+  from = "/web-automation-testing/how-can-artificial-intelligence-be-applied-in-automation-testing-of-web-apps/"
+  to = "/blog/web-automation-testing/how-can-artificial-intelligence-be-applied-in-automation-testing-of-web-apps/"
+  status = 301
+  force = true
+  query = {path = ":path"}
+  conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}
+
+[[redirects]]
+  from = "/test-automation-tools/how-to-choose-the-best-testing-tool-for-automated-testing/"
+  to = "/blog/test-automation-tools/how-to-choose-the-best-testing-tool-for-automated-testing/"
+  status = 301
+  force = true
+  query = {path = ":path"}
+  conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}
+
+[[redirects]]
+  from = "/test-automation-tools/pros-and-cons-of-selenium-vs-rpa-vs-cypress-io/"
+  to = "/blog/test-automation-tools/pros-and-cons-of-selenium-vs-rpa-vs-cypress-io/"
+  status = 301
+  force = true
+  query = {path = ":path"}
+  conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}
+
+[[redirects]]
+  from = "/test-automation-tools/three-reasons-why-cypress-is-heading-in-the-right-direction/"
+  to = "/blog/test-automation-tools/three-reasons-why-cypress-is-heading-in-the-right-direction/"
+  status = 301
+  force = true
+  query = {path = ":path"}
+  conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}
+
+[[redirects]]
+  from = "/test-automation-tools/automation-frameworks-buy-or-build/"
+  to = "/blog/test-automation-tools/automation-frameworks-buy-or-build/"
+  status = 301
+  force = true
+  query = {path = ":path"}
+  conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}

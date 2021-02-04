@@ -1,8 +1,6 @@
 ---
 template: blog-post
 title: "Automation Frameworks: Buy or Build?"
-redirect_from:
-  - /test-automation-tools/automation-frameworks-buy-or-build/
 slug: /blog/test-automation-tools/automation-frameworks-buy-or-build/
 date: 2020-12-30 12:00
 description: Free open-source automation frameworks are not actually zero cost.

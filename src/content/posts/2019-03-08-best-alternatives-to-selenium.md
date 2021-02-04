@@ -1,8 +1,6 @@
 ---
 template: blog-post
 title: Best Alternatives to Selenium for Web Automation Testing in 2019
-redirect_from:
-  - /web-automation-testing/best-alternatives-to-selenium/
 slug: /blog/web-automation-testing/best-alternatives-to-selenium/
 date: 2019-03-08 07:00
 description: Web automation testing for web apps is in huge demand. The global

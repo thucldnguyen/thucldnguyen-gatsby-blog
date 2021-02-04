@@ -16,8 +16,6 @@ module.exports = {
   siteMetadata: settings.meta,
   plugins: [
     'gatsby-plugin-netlify',
-    'gatsby-redirect-from',
-    'gatsby-plugin-meta-redirect',
     {
       resolve: `gatsby-source-filesystem`,
       options: {

@@ -1,8 +1,6 @@
 ---
 template: blog-post
 title: Tester Switching to Business Analyst – A Fast-Track Guide
-redirect_from:
-  - /career-advice/tester-to-business-analyst-guide/
 slug: /blog/career-advice/tester-to-business-analyst-guide/
 date: 2019-03-18 09:00
 description: Tester Switching to Business Analyst – A Fast-Track Guide
