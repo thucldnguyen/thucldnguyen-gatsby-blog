@@ -15,6 +15,8 @@ const settings = require("./src/util/site.json")
 module.exports = {
   siteMetadata: settings.meta,
   plugins: [
+    'gatsby-redirect-from',
+    'gatsby-plugin-meta-redirect',
     {
       resolve: `gatsby-source-filesystem`,
       options: {

@@ -1,6 +1,8 @@
 ---
 template: blog-post
 title: 5 Pitfalls You Should Consider Before Adopting Cypress
+redirect_from:
+  - /web-automation-testing/cypress-pitfalls/
 slug: /blog/web-automation-testing/cypress-pitfalls/
 date: 2019-03-15 12:00
 description: Cypress is by no doubts on the rise. It got 318,244 weekly

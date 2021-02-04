@@ -1,6 +1,8 @@
 ---
 template: blog-post
 title: Best Blogs to Learn and Evolve for Test Automation Engineers
+redirect_from:
+  - /career-advice/best-blogs-to-learn-and-evolve-for-test-automation-engineers/
 slug: /blog/career-advice/best-blogs-to-learn-and-evolve-for-test-automation-engineers/
 date: 2019-03-08 12:00
 description: New testers often ask me what are the best sites to sharpen their

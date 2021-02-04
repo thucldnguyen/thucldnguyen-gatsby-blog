@@ -1,6 +1,8 @@
 ---
 template: blog-post
 title: "Skype for Web Only Works on Chrome and Edge: What Does it Mean for Testers?"
+redirect_from:
+  - /tech-news/skype-for-web-software-testing/
 slug: /blog/tech-news/skype-for-web-software-testing/
 date: 2019-03-15 08:00
 description: On March 7, 2019, Microsoft released a fresh version of Skype for
