@@ -15,6 +15,7 @@ const settings = require("./src/util/site.json")
 module.exports = {
   siteMetadata: settings.meta,
   plugins: [
+    'gatsby-plugin-netlify',
     'gatsby-redirect-from',
     'gatsby-plugin-meta-redirect',
     {
