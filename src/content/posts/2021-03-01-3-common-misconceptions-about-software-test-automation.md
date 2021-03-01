@@ -1,7 +1,7 @@
 ---
 template: blog-post
 title: 3 Common Misconceptions about Software Test Automation
-slug: /common-misconceptions-about-software-test-automation
+slug: /blog/common-misconceptions-about-software-test-automation
 date: 2021-03-01 17:29
 description: The more automation the better. Automate once and run forever. Lack
   of preparation for provisioning and managing test environments. These are the
