@@ -70,6 +70,12 @@ module.exports = {
               escapeEntities: {},
             },
           },
+          {
+            resolve: `gatsby-remark-images-medium-zoom`,
+            options: {
+              background: '#000',
+            }
+          },
         ],
       },
     },
@@ -96,6 +102,6 @@ module.exports = {
         icon: "static" + settings.meta.iconimage,
       },
     },
-    'gatsby-plugin-offline',
-  ],
+    'gatsby-plugin-offline'
+  ],    
 }
