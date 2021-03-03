@@ -31,9 +31,9 @@ Whenever the API of your app is ready, automate them ASAP. You can use [POSTMAN 
 
 > Tip: If you haven't already known, check out the whole world of contract testing, starting with [pact.io](https://pact.io/). Contract testing helps you ensure that the new API deployments won't break any pre-defined contracts to its API consumers.
 >
-> DISCLAIMER: I'm no affiliate with this tool and the company behind it, no commission for referring the tool whatsoever.
+> DISCLAIMER: I'm no affiliate with this tool and the company behind it. No commission for referring the tool whatsoever.
 
-The picture below (credit: pact.io) shows various microservices that depend on each other. You can untangle this mess by automating each and every one of them first, then automate the integration tests that go through all of them.
+The picture below (credit: [pact.io](pact.io)) shows various microservices that depend on each other. You can untangle this mess by automating each and every one of them first, then automate the integration tests that consume all of them.
 
 ![Microservices architecture - Source: pact.io](/assets/pact-io-microservices.png "Microservices architecture - Source: pact.io")
 
@@ -41,15 +41,15 @@ The picture below (credit: pact.io) shows various microservices that depend on e
 
 If the ***business-logics*** scenarios are ready, automate them and group them together to form a comprehensive **End-to-End (E2E)** test suite. This approach usually blends well with the **Keyword-Driven Testing (KDT)** method. Instead of being specific to the GUI interactions level, you can just start with a "skeleton" of major business steps and verifications.
 
-What do you mean by "business-logics"? For instance, a typical use case of a pizza ordering app consists of *\[1] logging in, \[2] find the nearest restaurant, \[3] pick the crust and the topping, \[4] specify some extra options, \[5] check out and pay, \[6] receive the order at your doorstep (offline).* Without any understanding of the GUI like element locators and all, you can still write the flow in keywords, right?
+What do you mean by "business-logics"? For instance, a typical use case of a pizza ordering app consists of *\[1] logging in, \[2] find the nearest restaurant, \[3] pick the crust and the topping, \[4] specify some extra options, \[5] check out and pay, \[6] receive the order at your doorstep (offline).* Without any understanding of the GUI like the element locators or the platform (mobile, web, or desktop), you can still write the whole flow using keywords.
 
-> Tip: Check out[ Robot Framework](https://robotframework.org/) - a famoust open-source KDT framework to develop business-logics even before the GUI is ready. Robot provides KDT on top of myriad automation plugins ranging from Web to Mobile, Database and Desktop.
+> Tip: Check out[ Robot Framework](https://robotframework.org/) - a famoust open-source KDT framework to develop business-logics even before the GUI is ready. Robot FW provides KDT on top of myriad automation plugins ranging from Web to Mobile, Database and Desktop.
 >
-> DISCLAIMER: I'm no affiliate with this tool and the company behind it, no commission for referring the tool whatsoever.
+> DISCLAIMER: I'm no affiliate with this tool and the company behind it. No commission for referring the tool whatsoever.
 
 The picture below shows the pizza ordering test in another KDT tool called [TestArchitect](www.testarchitect.com). You can craft business-logics keywords called actions (*find restaurant nearby,  select pizza, verify cart,* etc.) then compose a test using those actions. Note that the actions are all highlighted in red because their contents (each test step describing which buttons to click or which elements to check) are not defined yet. 
 
-![Pizza ordering test - Screenshot of TestArchitect IDE (a KDT tool)](/assets/pizza-ordering-test.png "Pizza ordering test - Screenshot of TestArchitect IDE (a KDT tool)")
+![Pizza ordering test written in TestArchitect IDE (a KDT tool)](/assets/pizza-ordering-test.png "Pizza ordering test written in TestArchitect IDE (a KDT tool)")
 
 # \#3. Automate Database
 
@@ -59,7 +59,7 @@ Besides data verifications at the database-level described above, you can also a
 
 > Tip: There is a free online tool that helps you "randomize" and generate a realistic dataset for your testing purpose in case you cannot access the real data in the database. Check it out at [www.generatedata.com](www.generatedata.com). 
 >
-> DISCLAIMER: I'm no affiliate with this tool and the company behind it, no commission for referring the tool whatsoever.
+> DISCLAIMER: I'm no affiliate with this tool and the company behind it. No commission for referring the tool whatsoever.
 
 The picture below shows some options that you can control on [generatedata.com](generatedata.com). For instance, you can define a column "Employee Name" and let the tool randomly pick realistic-sounding names like John Doe and Marry Anne.
 
@@ -73,7 +73,7 @@ Without test environments, we cannot run a single automated test let alone paral
 
 > Tip: Instead of provisioning and managing the test environments yourself, you can take advantage of full SaaS solutions like [mabl.com](www.mabl.com). These SaaS take care of the infrastructure so you just need to pick the browser version and kick off the run.
 >
-> DISCLAIMER: I'm no affiliate with this tool and the company behind it, no commission for referring the tool whatsoever.
+> DISCLAIMER: I'm no affiliate with this tool and the company behind it. No commission for referring the tool whatsoever.
 
 The picture below separates out different types of test environments: regression testing, integration testing, performance testing, and staging for acceptance testing. Credit: <https://www.capgemini.com/2017/02/automated-test-environments-for-devops/>
 
