@@ -128,4 +128,6 @@ TestProject is a new kid on the block so it's not that popular. However, I belie
 
 This list was composed as of early 2019 and recently updated in Mar 2021. The tool market for automation testing is very competitive. So you can expect radical changes and innovative features being introduced every day. If you spot some outdated information, please let me know. I’ll fix ASAP.
 
-Have you seen better Selenium alternatives not listed above? Comment the tool names and why you think they are the best below.
+Have you seen better Selenium alternatives not listed above? Comment the tool names and why you think they are the best below. 
+
+> DISCLAIMER: I'm not affiliated with or sponsored by any of the tools mentioned in this article or the companies behind them. I receive no commission for directing traffic to those tools whatsoever. All product and company names are the registered trademarks of their original owners. The use of any trade name or trademark is for identification and reference purposes only and does not imply any association with the trademark holder or their brands.
