@@ -37,14 +37,16 @@ Cypress.io is an open-source NodeJS testing tool. Front-end developers love it s
 * No parallel execution
 * A little difficult for non-technical testers or newbies
 
+![Cypress provides a "cy" object with prebuilt API to interact with web UI](/assets/cypress-code2.png "Cypress provides a \"cy\" object with prebuilt API to interact with web UI")
+
 ## 2. [TestArchitect](http://testarchitect.com/)
 
 TestArchitect is a commercial Keyword-Driven Testing tool. Testers with modest programming skills can learn it quickly thanks to an extensive keyword library. It’s very approachable to non-technical testers and newbies getting feet wet in the automation journey. However, that comes with a cost.
 
 **Pros**
 
-* Complete feature set for test development, test execution and test management
-* Friendly to non-technical testers, business analysts or domain experts
+* Complete feature set for test development, test execution, and test management
+* Friendly to non-technical testers, business analysts, or domain experts
 * Spreadsheet IDE, no coding
 * You’re able to write cross-platform tests ranging from desktop, web, mobile, API, database, etc.
 * Can be integrated with many ALM tools like Team Foundation Server, Zephyr, Jenkins, etc.
@@ -53,25 +55,13 @@ TestArchitect is a commercial Keyword-Driven Testing tool. Testers with modest p
 
 * Cannot integrate with Git for version control of test artifacts (TestArchitect has its own built-in version control)
 * Slower than Selenium a bit
-* Commercial product so you have to pay. However, they do offer TestArchitect Team — free version with limited number of test cases.
+* A commercial product so you have to pay. However, they do offer TestArchitect Team — a free version with a limited number of test cases.
 
-## 3. Gauge
+![A pizza ordering test written in TestArchitect IDE](/assets/pizza-ordering-test.png "A pizza ordering test written in TestArchitect IDE")
 
-Gauge was made by ThoughtsWork, the same company that built Selenium. Gauge focuses on productivity by introducing less code thus less maintenance. It can work with many automation tools. And guess what? It works with Selenium too.
+## 3. Tricentis Tosca
 
-**Pros**
-
-* Write tests in markdown so tests are easy to read
-* Support many programming languages, automation tools and CI/CD tools
-
-**Cons**
-
-* Not popular
-* Frustrating setup
-
-## 4. Tricentis Tosca
-
-Tricentis provides wide support for virtually all test activities. They offer customers a Continuous Testing platform that covers test design, UI testing, API testing, service virtualization and test data management. With the recent acquisition of QASymphony, Tricentis further expand their offering scope to test management.
+Tricentis provides wide support for virtually all test activities. They offer customers a Continuous Testing platform that covers test design, UI testing, API testing, service virtualization, and test data management. With the recent acquisition of QASymphony, Tricentis further expand its offering scope to test management.
 
 **Pros**
 
@@ -86,7 +76,9 @@ Tricentis provides wide support for virtually all test activities. They offer cu
 * Model-based approach creates unnecessary maintenance problems
 * Too much clicking when writing tests
 
-## 5. [Mabl](http://mabl.com/)
+![Tricentis Tosca GUI](/assets/tricentis.png "Tricentis Tosca GUI")
+
+## 4. [Mabl](http://mabl.com/)
 
 Mabl made headlines last year thanks to the $20 million investment from Google Venture. Its main selling point: you no longer need to worry about UI changes because tests are auto-healed by AI. That’s a very tempting value proposition that scratches the right spot on the backs of many testers.
 
@@ -104,7 +96,9 @@ Mabl made headlines last year thanks to the $20 million investment from Google V
 * Convenience comes with a cost (SaaS)
 * You cannot change the element locators that Mabl uses to find UI controls even if you’re 100% sure that your locator is the best.
 
-# 6. [TestProject](https://www.testproject.io)
+![Test results on Mabl](/assets/mabl-screenshot.png "Test results on Mabl")
+
+# 5. [TestProject](https://www.testproject.io)
 
 TestProject is a new kid on the block so it's not that popular. However, I believe it's an underrated tool since its **AI Self-Healing** and **Adaptive Waits** technologies are truly state-of-the-art best-in-class, even compared to commercial incumbents. These technologies help eliminate almost all of your automation flakiness. Enjoy a smooth and stable automation.
 
