@@ -1,14 +1,16 @@
 ---
 template: blog-post
-title: Best Alternatives to Selenium for Web Automation Testing in 2019
+title: Best Alternatives to Selenium WebDriver for Web Testing
 slug: /blog/web-automation-testing/best-alternatives-to-selenium/
 date: 2019-03-08 07:00
 description: Web automation testing for web apps is in huge demand. The global
   test automation market is expected to reach USD 54.98 billion by 2022
   according to Zion Market Research (source). And no other tools have outshone
   Selenium in terms of fame and adoption so far. But, that’s about to change.
-featuredImage: /assets/featuredimg-bestalternatives.png
+featuredImage: /assets/best-alternatives-to-selenium-webdriver.png
 ---
+**Last Updated: 05-Mar-2021**
+
 Web automation testing for web apps is in huge demand. The global test automation market is expected to reach **USD 54.98 billion** by 2022 according to Zion Market Research ([source](https://globenewswire.com/news-release/2017/07/25/1057737/0/en/Global-Test-Automation-Market-Will-Reach-USD-54-98-Billion-by-2022-Zion-Market-Research.html)). And no other tools have outshone Selenium in terms of fame and adoption so far. But, that’s about to change.
 
 Selenium has its own drawbacks. It might not be the best tool for you in your current situation. If you’re looking for alternatives to Selenium, I’ve curated a list of strong contenders below. Let me know what you think of the tools listed in the comment section.
@@ -18,15 +20,13 @@ Selenium has its own drawbacks. It might not be the best tool for you in your cu
 > * The tools are listed in no specific order. I didn’t rank them.
 > * This article expresses my personal opinion so yours might differ. Please share your thoughts in the comment section.
 
-
-
 ## 1. [Cypress](http://www.cypress.io/)
 
 Cypress.io is an open-source NodeJS testing tool. Front-end developers love it so much thanks to its developer-friendly features. Most importantly, it’s very FAST compared to Selenium.
 
 **Pros**
 
-* Lightning fast test execution. In fact, you’ll have to add artificial waits to watch the execution in slow motion.
+* Lightning-fast test execution. In fact, you’ll have to add artificial waits to watch the execution in slow motion.
 * Easy setup with npm
 * Beautiful test reports with screenshots and videos Good IDE to compose automated tests You can time-travel to investigate test failures since Cypress captures DOM snapshots of the web app during the entire execution
 * Live access to browser objects since Cypress practically lives inside the browser (Chrome)
@@ -71,7 +71,7 @@ Gauge was made by ThoughtsWork, the same company that built Selenium. Gauge focu
 
 ## 4. Tricentis Tosca
 
-Tricentis provides a wide support for virtually all test activities. They offer customers a Continuous Testing platform that covers test design, UI testing, API testing, service virtualization and test data management. With the recent acquisition of QASymphony, Tricentis further expand their offering scope to test management.
+Tricentis provides wide support for virtually all test activities. They offer customers a Continuous Testing platform that covers test design, UI testing, API testing, service virtualization and test data management. With the recent acquisition of QASymphony, Tricentis further expand their offering scope to test management.
 
 **Pros**
 
@@ -102,12 +102,30 @@ Mabl made headlines last year thanks to the $20 million investment from Google V
 **Cons**
 
 * Convenience comes with a cost (SaaS)
-* You cannot change the element locators that Mabl use to find UI controls even if you’re 100% sure that your locator is the best.
+* You cannot change the element locators that Mabl uses to find UI controls even if you’re 100% sure that your locator is the best.
+
+# 6. [TestProject](https://www.testproject.io)
+
+TestProject is a new kid on the block so it's not that popular. However, I believe it's an underrated tool since its **AI Self-Healing** and **Adaptive Waits** technologies are truly state-of-the-art best-in-class, even compared to commercial incumbents. These technologies help eliminate almost all of your automation flakiness. Enjoy a smooth and stable automation.
+
+## Pros
+
+* FREE FOREVER
+* AI Self-Healing is very smart so it helps the test run very smooth
+* Adaptive waits make my tests extremely stable
+* Supports XPath and CSS selector with many fallback locators
+
+## Cons
+
+* A lot of unnecessary scrolling recorded
+* Web Recorder is embedded within the web app so you might encounter conflicts with the web app under test
+* You have to manage the test execution infrastructure
+* Very frustrating when adding assertions
+
+![TestProject supports many browser types](/assets/testproject-2.png "TestProject supports many browser types")
 
 # Conclusion
 
-This list was composed as of early 2019. The tool market for automation testing is very competitive. So you can expect radical changes and innovative features being introduced everyday. If you spot some outdated information, please let me know. I’ll fix ASAP.
+This list was composed as of early 2019 and recently updated in Mar 2021. The tool market for automation testing is very competitive. So you can expect radical changes and innovative features being introduced every day. If you spot some outdated information, please let me know. I’ll fix ASAP.
 
 Have you seen better Selenium alternatives not listed above? Comment the tool names and why you think they are the best below.
-
-If you like what you read, subscribe to my newsletter [here](https://thucldnguyen.com/newsletter-subscription/).
