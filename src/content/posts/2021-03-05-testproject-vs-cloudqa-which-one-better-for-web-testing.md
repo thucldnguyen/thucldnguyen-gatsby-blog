@@ -10,7 +10,7 @@ description: TestProject and CloudQA are both new kids on the block competing
   verdict.
 featuredImage: /assets/testproject-vs-cloudqa.png
 ---
-A lot of ink and paper have been spent on popular tools like [Selenium](www.selenium.dev), [Cypress](www.cypress.io), [Robot Framework](www.robotframework.org), [WebDriverIO](www.webdriver.io), etc. but not so much about these two new and underrated kids on the block: [TestProject ](www.testproject.io)and [CloudQA](www.cloudqa.io). Today I'd like to analyze the **Pros** and **Cons** of these tools to help you select the winner for your upcoming web testing project.
+A lot of ink and paper have been spent on popular tools like [Selenium](https://www.selenium.dev), [Cypress](https://www.cypress.io), [Robot Framework](https://www.robotframework.org), [WebDriverIO](https://www.webdriver.io), etc. but not so much about these two new and underrated kids on the block: [TestProject ](https://www.testproject.io)and [CloudQA](https://www.cloudqa.io). Today I'd like to analyze the **Pros** and **Cons** of these tools to help you select the winner for your upcoming web testing project.
 
 # TestProject
 
@@ -34,9 +34,9 @@ I'm absolutely impressed and pleasantly delighted by the UX of TestProject. New 
 
 # CloudQA
 
-The strongest selling point for CloudQA is of course its cloud nature. Test execution happens on CloudQA's infrastructure so you don't have to manage that infrastructure yourself. One less task to worry about. Besides, creating assertions is very easy unlike TestProject. You simply click the "Assertion" button and hold the mouse over an element.
+The strongest selling point for CloudQA is of course its cloud nature. Test execution happens on CloudQA's infrastructure so you don't have to manage that infrastructure yourself. One less task to worry about. Besides, creating assertions is very easy unlike TestProject. You simply click the **"Assertion"** button and hold the mouse over an element.
 
-However, I have to be honest that CloudQA is quite flaky. A simple record & playback on [www.amazon.com](www.amazon.com) doesn't work. The CSS selectors (worth mentioning that they only supports CSS, no XPath) recorded by CloudQA's Chrome extension don't work. On top of that, you cannot specify the location that your test will be run from. It auto starts in **Virginia, USA**. This causes my test to fail since Amazon displays different products and promotions for different locations.
+However, I have to be honest that CloudQA is quite flaky. A simple record & playback on [www.amazon.com](https://www.amazon.com) doesn't work. The CSS selectors (worth mentioning that they only supports CSS, no XPath) recorded by CloudQA's Chrome extension don't work. On top of that, you cannot specify the location that your test will be run from. It auto starts in **Virginia, USA**. This causes my test to fail since Amazon displays different products and promotions for different locations.
 
 ## Pros
 
@@ -58,6 +58,6 @@ However, I have to be honest that CloudQA is quite flaky. A simple record & play
 
 # Verdict
 
-The clear winner between these two tools is of course: **TestProject**. Its stable automation is admirable and much appreciated. I'd argue that their **Adaptive Waits** and **AI Self-Healing** are the state-of-the-art best in class technology on the market right now, even compared with commercial incumbents like Tricentis Tosca, Ranorex, TestComplete, etc. If you're searching for a tool for your next web testing project, pick TestProject. Any other ideas or more tool suggestions, put it in the Comment section below.
+The clear winner between these two tools is of course: **TestProject**. Its stable automation is admirable and much appreciated. I'd argue that their **Adaptive Waits** and **AI Self-Healing** are the state-of-the-art best in class technology on the market right now, even compared with commercial incumbents like _Tricentis Tosca, Ranorex, TestComplete, etc._ If you're searching for a tool for your next web testing project, pick TestProject. Any other ideas or more tool suggestions, put it in the Comment section below.
 
 > DISCLAIMER: I'm not affiliated with or sponsored by any of the tools mentioned in this article or the companies behind them. I receive no commission for directing traffic to those tools whatsoever. All product and company names are the registered trademarks of their original owners. The use of any trade name or trademark is for identification and reference purposes only and does not imply any association with the trademark holder or their brands.
