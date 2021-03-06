@@ -42,5 +42,3 @@ Enterprises sometimes cannot afford the luxury of ignoring these risks.
 # Conclusion
 
 Cross Browser Testing is still relevant, at least at the moment. Do you think differently? Let me know in the comment section.
-
-If you like what you read, subscribe to my newsletter [here](https://thucldnguyen.com/newsletter-subscription/).

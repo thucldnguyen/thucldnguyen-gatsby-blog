@@ -15,7 +15,7 @@ Regardless of the SDLC model that your organization is using, there will always 
 
 ![In-sprint automation is ideal but rarely achievable](/assets/automation-in-sprints.png "In-sprint automation is ideal but rarely achievable")
 
-That gap time could range from a few days to several weeks, or "sprints" if you prefer speaking in Scrum lingo. The picture above illustrates this gap. In the upper scenario (#1), test automation can at least start in the same sprint as feature development. But it still bleeds into the next sprint. Scenario #2 is worse. The developers take even more time to finish the feature. Thus, the testers waste the entire sprint doing nothing (maybe tech debts?).
+That gap time could range from a few days to several weeks, or "sprints" if you prefer the Scrum lingo. The picture above illustrates this gap. In the upper scenario (#1), test automation can at least start in the same sprint as feature development. But it still bleeds into the next sprint. Scenario #2 is worse. The developers take even more time to finish the feature. Thus, the testers waste the entire sprint doing nothing (maybe tech debts?).
 
 Sitting around waiting idly is of course not an option. The good news is as a **Software Automation Engineer**, you can start working on many things instead. The correct mindset is to think of the big picture. Don’t just automate the tests. Automate your entire CI/CD pipeline.
 
@@ -31,7 +31,7 @@ Whenever the API of your app is ready, automate them ASAP. You can use [POSTMAN 
 
 > **Tip:** If you haven't already known, check out the whole world of contract testing, starting with [pact.io](https://pact.io/). Contract testing helps you ensure that the new API deployments won't break any pre-defined contracts to its API consumers.
 
-The picture below (credit: [pact.io](pact.io)) shows various microservices that depend on each other. You can untangle this mess by automating each and every one of them first, then automate the integration tests that consume all of them.
+The picture below (credit: [pact.io](https://pact.io)) shows various microservices that depend on each other. You can untangle this mess by automating each and every one of them first, then automate the integration tests that consume all of them.
 
 ![Microservices architecture - Source: pact.io](/assets/pact-io-microservices.png "Microservices architecture - Source: pact.io")
 
@@ -41,9 +41,9 @@ If the ***business-logics*** scenarios are ready, automate them and group them t
 
 What do you mean by "business-logics"? For instance, a typical use case of a pizza ordering app consists of *\[1] logging in, \[2] find the nearest restaurant, \[3] pick the crust and the topping, \[4] specify some extra options, \[5] check out and pay, \[6] receive the order at your doorstep (offline).* Without any understanding of the GUI like the element locators or the platform (mobile, web, or desktop), you can still write the whole flow using keywords.
 
-> **Tip:** Check out[ Robot Framework](https://robotframework.org/) - a famoust open-source KDT framework to develop business-logics even before the GUI is ready. Robot FW provides KDT on top of myriad automation plugins ranging from Web to Mobile, Database and Desktop.
+> **Tip:** Check out [Robot Framework](https://robotframework.org/) - a famoust open-source KDT framework to develop business-logics even before the GUI is ready. Robot FW provides KDT on top of myriad automation plugins ranging from Web to Mobile, Database and Desktop.
 
-The picture below shows the pizza ordering test in another KDT tool called [TestArchitect](www.testarchitect.com). You can craft business-logics keywords called actions (*find restaurant nearby,  select pizza, verify cart,* etc.) then compose a test using those actions. Note that the actions are all highlighted in red because their contents (each test step describing which buttons to click or which elements to check) are not defined yet. 
+The picture below shows the pizza ordering test in another KDT tool called [TestArchitect](https://www.testarchitect.com). You can craft business-logics keywords called actions (*find restaurant nearby,  select pizza, verify cart,* etc.) then compose a test using those actions. Note that the actions are all highlighted in red because their contents (each test step describing which buttons to click or which elements to check) are not defined yet. 
 
 ![Pizza ordering test written in TestArchitect IDE (a KDT tool)](/assets/pizza-ordering-test.png "Pizza ordering test written in TestArchitect IDE (a KDT tool)")
 
@@ -53,9 +53,9 @@ Automate the **database queries** that fetch the test data for your **data-drive
 
 Besides data verifications at the database-level described above, you can also automate the process of **test data provisioning**. Let's say your UI tests are data-driven - repeating the same steps but with different parameters every time, e.g. different employee records, different sales regions, etc. To feed that test data or a subset of it to those data-driven tests, you'll need to prepare a dataset beforehand and store them somewhere. Manually provisioning test data for every test run is not ideal. Automate it.
 
-> **Tip:** There is a free online tool that helps you "randomize" and generate a realistic dataset for your testing purpose in case you cannot access the real data in the database. Check it out at [www.generatedata.com](www.generatedata.com). 
+> **Tip:** There is a free online tool that helps you "randomize" and generate a realistic dataset for your testing purpose in case you cannot access the real data in the database. Check it out at [www.generatedata.com](https://www.generatedata.com). 
 
-The picture below shows some options that you can control on [generatedata.com](generatedata.com). For instance, you can define a column "Employee Name" and let the tool randomly pick realistic-sounding names like John Doe and Marry Anne.
+The picture below shows some options that you can control on [generatedata.com](https://www.generatedata.com). For instance, you can define a column "Employee Name" and let the tool randomly pick realistic-sounding names like John Doe and Marry Anne.
 
 ![Generate a realistic dataset for testing purposes](/assets/generate-data.png "Generate a realistic dataset for testing purposes")
 
@@ -65,7 +65,7 @@ A lot of us usually overlook one key aspect of test automation: **automating the
 
 Without test environments, we cannot run a single automated test let alone parallelizing them to speed up test execution and receive test results faster. Additionally, if our test environment is flaky (not reproducible or immutable every time it's provisioned), we cannot expect our automated tests to be any other than flaky. And everybody knows that debugging flaky tests is a PITA. Better get the test environments under control first.
 
-> **Tip:** Instead of provisioning and managing the test environments yourself, you can take advantage of full SaaS solutions like [mabl.com](www.mabl.com). These SaaS take care of the infrastructure so you just need to pick the browser version and kick off the run.
+> **Tip:** Instead of provisioning and managing the test environments yourself, you can take advantage of full SaaS solutions like [mabl.com](https://www.mabl.com). These SaaS take care of the infrastructure so you just need to pick the browser version and kick off the run.
 
 The picture below separates out different types of test environments: regression testing, integration testing, performance testing, and staging for acceptance testing. Credit: <https://www.capgemini.com/2017/02/automated-test-environments-for-devops/>
 

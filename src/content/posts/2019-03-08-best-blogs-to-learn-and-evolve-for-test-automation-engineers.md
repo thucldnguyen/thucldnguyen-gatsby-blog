@@ -68,5 +68,3 @@ TeachBeacon is a blog about application development, testing, DevOps and many mo
 # Final Thoughts
 
 The list is not exhaustive but I’ll try to add more as soon as I stumble upon an interesting resource. Hopefully this list can help you learn more and test more. Happy testing! Remember to shout out your favorite learning resources in the comment section.
-
-If you like what you read, subscribe to my newsletter [here](https://thucldnguyen.com/newsletter-subscription/).

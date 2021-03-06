@@ -10,7 +10,7 @@ description: TestProject and CloudQA are both new kids on the block competing
   verdict.
 featuredImage: /assets/testproject-vs-cloudqa.png
 ---
-A lot of ink and paper have been spent on popular tools like [Selenium](https://www.selenium.dev), [Cypress](https://www.cypress.io), [Robot Framework](https://www.robotframework.org), [WebDriverIO](https://www.webdriver.io), etc. but not so much about these two new and underrated kids on the block: [TestProject ](https://www.testproject.io)and [CloudQA](https://www.cloudqa.io). Today I'd like to analyze the **Pros** and **Cons** of these tools to help you select the winner for your upcoming web testing project.
+A lot of ink and paper have been spent on popular tools like [Selenium](https://www.selenium.dev), [Cypress](https://www.cypress.io), [Robot Framework](https://www.robotframework.org), [WebDriverIO](http://webdriver.io), etc. but not so much about these two new and underrated kids on the block: [TestProject ](https://www.testproject.io)and [CloudQA](https://www.cloudqa.io). Today I'd like to analyze the **Pros** and **Cons** of these tools to help you select the winner for your upcoming web testing project.
 
 # TestProject
 

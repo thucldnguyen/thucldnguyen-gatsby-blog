@@ -40,5 +40,3 @@ If cross-browser testing is still in your work agenda, don’t throw them tests 
 The fact that Chrome is slowly eating up the diversity of the world wide web is unsettling. However, there’s nothing much we can do. It’s human nature to standardize and converge into whichever means most convenient. Firefox, Safari, Opera and other browsers will soon be a thing in the past. As testers, our web testing job will definitely become easier.
 
 However, don’t fall into the trap of complacent. Continue sharpening your skills and learning new techs. Continuous learning is the best weapon against the ever-changing world of software testing.
-
-**If you like what you read, subscribe to my newsletter [here](https://thucldnguyen.com/newsletter-subscription/).**

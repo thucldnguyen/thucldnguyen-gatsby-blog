@@ -111,4 +111,4 @@ Brushing up your CV, aligning the specifics your career to the future job, sendi
 
 A business analyst is a bridge between the business and the development. The job is critical to the success of the software development and deployment. Besides the nice pay, it offers exciting challenges as well as learning and leading opportunities. If you have passion for business analysis, try your best to pursue it. Remember that you already got ahead of the game starting out as a software tester. Good luck!
 
-**Do you find this article useful? Leave your comments below. If you like what you read, subscribe to my newsletter [here](https://thucldnguyen.com/newsletter-subscription/).**
+**Do you find this article useful? Leave your comments below.**
