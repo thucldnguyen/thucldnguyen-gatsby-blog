@@ -14,12 +14,12 @@ featuredImage: /assets/can-we-do-automation-testing-without-framework.png
 
 ![](https://qph.fs.quoracdn.net/main-qimg-037b135439a38c2d0cec55c2a9f31694)
 
-(Illustration of DriverManagerFactory - Source: LogiGear)
+*(Illustration of DriverManagerFactory - Source: LogiGear)*
 
 Automation frameworks offer many benefits:
 
 * **Reusability:** Modules that we can reuse over and over again to speed up test development and lower maintenance cost. You don’t have to duplicate a page object method every time a test needs it. Just reuse the pre-coded page object.
-* **Abstraction:** The ability to not care too much about the browser of choice at runtime so that we can focus on scripting the automated steps. A framework should allow us to do this via the DriverManagerFactory pattern.
+* **Abstraction:** The ability to not care too much about the browser of choice at runtime. So that we can focus on scripting the automated steps during test development. A framework should enable this "separation of concerns" via the *DriverManagerFactory* pattern (picture above).
 * **Configurable Waits:** If you hardcode every “wait” step of a test case, you cannot run that test case in many environments. Waits should be configurable at runtime giving the control to the person executing the test - not the person developing it.
 * **Parallel Execution:** Running tests on one browser instance is easy. But we’ll not receive test results fast enough. The solution is to dispatch the tests to as many nodes as possible. A framework with additional tools like Selenium Grid could help.
 * **Easy to Debug Test Reports:** Automation testing is as valuable as its reports. We don’t run automation for fun. We do it because we want deep insights into the software quality. If the test reports are not easy to understand, we’re wasting time.
@@ -29,7 +29,7 @@ If you’re interested in building a Selenium framework from scratch, check out 
 
 [Building a Selenium Framework from A to Z ](https://www.logigear.com/blog/test-automation/building-a-selenium-framework-from-a-to-z/)
 
-An alternative to building a Selenium framework on your own is using [TestProject ](http://www.testproject.io/ "www.testproject.io")- an open-source & free-forever solution. They offer an AI Test Recorder that is very reliable IMO. Check out this analysis between TestProject and CloudQA on my personal blog:
+An alternative to building a Selenium framework on your own is using [TestProject ](http://www.testproject.io/ "www.testproject.io")- an open-source & free-forever solution. It offers an **AI Test Recorder** that is very reliable IMO. Check out this analysis between TestProject and CloudQA:
 
 [TestProject vs. CloudQA: Which One Better for Web Testing?](https://www.thucldnguyen.com/blog/testproject-cloudqa-which-one-better-for-web-testing)
 
