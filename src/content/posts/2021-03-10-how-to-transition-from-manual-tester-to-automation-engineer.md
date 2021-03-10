@@ -21,25 +21,25 @@ The good news is there's still a lot of overlap (*transferable knowledge*) betwe
 
 First, let's retrospect before we dive deep into what to learn and how to make a successful transition.
 
-***What makes you - a Manual Tester - a value-add to your team?*** 
+### What makes you (a Manual Tester) a value-add to your team?
 
 Most of the time, you add value because you already know how to do Software Testing to ultimately ensure *Software Quality*. You've probably familiarized yourself with writing test cases for different testing types (component, integration, E2E, acceptances, usability, etc.), and applying different testing techniques (requirement breakdown, boundary analysis, exploratory testing, regression, etc.). 
 
 Additionally, you also execute all those tests on the app in question manually on a regular basis, investigate the root cause of an error, report bugs and verify bug fixes. All these skills and experience are valuable and can be transferred to your new job as an Automation Engineer. So don’t be afraid that you’ll have to start from scratch. In fact, ***you are ahead of the game.*** 
 
-***Besides, the testing skills, what more do you have?***
+### Besides the testing skills, what more do you have?
 
-I bet you also possess the ***domain knowledge*** of the industry you're operating in such as banking, refinancing, energy, e-commerce, Salesforce, SAP, Oracle EBS, textile, supply chain inspection, etc. This is where you outshine a programmer who only has the tech stuff covered or someone has just recently joined the project. Leverage your valuable domain expertise as a competitive advantage in a job interview.
+I bet you also possess the ***domain knowledge*** of the industry you're operating in such as banking, refinancing, energy, e-commerce, Salesforce, SAP, Oracle EBS, textile, supply chain inspection, etc. This is where you outshine a programmer who only has the tech stuff covered or someone who has just recently joined the project. Leverage your valuable domain expertise as a competitive advantage in a job interview.
 
 # Step #2 - Learn Automation-specific Skills
 
 Now that you understand your strengths, let's examine the areas of knowledge that you'll need to learn. I'm listing out some key areas of knowledge below. Of course, these points are by no means exhaustive. There are still a lot to learn if you want to advance to senior level. But they basically cover the foundation for an entry-level automation engineer.
 
-## UI Element Locator
+### UI Element Locator
 
 To automate an app, we'll need to understand how the app is built (JS/HTML, Java, WPF, UWP, [React](https://reactjs.org/), [Angular](https://angular.io/), [Vue](https://vuejs.org/), etc.) so that we can choose a reliable locator to identify the app's UI elements. The automation framework ([Selenium](https://www.selenium.dev/), [Cypress](https://www.cypress.io/), [Appium](https://appium.io/), [Playwright](https://playwright.dev/), etc.) will use these element locators to interact (click, enter, check, etc.) with the app when you kick off an automated run. A useful tool to craft and test element locators for you web app would be: [POM Builder (Chrome extension)](https://chrome.google.com/webstore/detail/pom-builder-%E2%80%93-auto-genera/akcejfbfkkjnghlfngighgncolfaghco).
 
-## Automation API 
+### Automation API 
 
 An automation interaction consists of two 2 main steps : \[1] Element matching: the automation tool retrieves an "element locator" and matches it with a run-time UI element (usually some waits are applied), \[2] Invoking an UI event on that newly found UI element. As an Automation Engineer, we'll need to get familiar with the API that the automation library provides. For each platform, we have different techniques thus different API to learn:
 
@@ -47,23 +47,23 @@ An automation interaction consists of two 2 main steps : \[1] Element matching:
 * **Web:** Invoking Javascript events, Selenium [WebDriver API](https://www.w3.org/TR/webdriver1/), [Playwright API](https://playwright.dev/docs/api/class-playwright), etc.
 * **Mobile:** [Appium API](https://appium.io/docs/en/about-appium/api/), Android UIAutomator, iOS UIAutomation, etc.
 
-## Result Report 
+### Result Report 
 
 Usually when we pick an automation framework with a corresponding unit test framework (JUnit, TestNG, Mocha etc.), we already have a default result reporter like [Mochawesome](https://www.npmjs.com/package/mochawesome), [ExtentReports](https://www.extentreports.com/), Allure, ReportNG, etc. We just need to learn how to read them and investigate the root cause of a certain test failure.
 
-## Reusability 
+### Reusability 
 
 For web projects, go ahead with the *PageObject Model (POM)*. For other projects, try to wrap repetitive chunks of test steps into a higher-level reusable functions so that you can call it over again and again instead of reinventing the wheel. Reusability is very beneficial because you can scale up fast while keeping the maintenance cost cheap.
 
-## Data-Driven 
+### Data-Driven 
 
 Sometimes we'll find that executing a test repeatedly with different parameter combinations each time is the best way to increase test coverage and ensure quality. Those tests are called "data-driven" tests. In such as case, we'll need to go through the whole test suite and cherry-pick them out, parameterize them (replace hard-coded values by variables), design a good set of test data, then apply the data-driven feature your framework of choice, e.g. TestNG
 
-## Test Execution 
+### Test Execution 
 
 Automation runs are a bit different from manual test execution. We'll need to ensure that the test environment is stable so that we don't encounter environment issues (lack of dependencies, wrong app under test, wrong OS, etc.) that have nothing to do with the quality of the app under test itself.
 
-## CI/CD Integration 
+### CI/CD Integration 
 
 Automation engineers don’t just automate tests, we also automate the Continuous Testing pipeline, a part of the CI/CD pipeline in DevOps. To do this, we'll usually rely on integration plugins of the automation framework or we must "plumb" the pipeline ourselves, e.g. spin up VM, install the app under test, install the test automation framework, dispatch the tests to the VM, collect all results, aggregate the results to generate a summary report that will be emailed to all stakeholders, etc.
 
