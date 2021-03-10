@@ -37,11 +37,11 @@ Now that you understand your strengths, let's examine the areas of knowledge tha
 
 ### UI Element Locator
 
-To automate an app, we'll need to understand how the app is built (JS/HTML, Java, WPF, UWP, [React](https://reactjs.org/), [Angular](https://angular.io/), [Vue](https://vuejs.org/), etc.) so that we can choose a reliable locator to identify the app's UI elements. The automation framework ([Selenium](https://www.selenium.dev/), [Cypress](https://www.cypress.io/), [Appium](https://appium.io/), [Playwright](https://playwright.dev/), etc.) will use these element locators to interact (click, enter, check, etc.) with the app when you kick off an automated run. A useful tool to craft and test element locators for you web app would be: [POM Builder (Chrome extension)](https://chrome.google.com/webstore/detail/pom-builder-%E2%80%93-auto-genera/akcejfbfkkjnghlfngighgncolfaghco).
+To automate an app, we'll need to understand how the app is built (JS/HTML, Java, WPF, UWP, [React](https://reactjs.org/), [Angular](https://angular.io/), [Vue](https://vuejs.org/), etc.) so that we can choose a reliable locator to identify the app's UI elements. The automation framework ([Selenium](https://www.selenium.dev/), [Cypress](https://www.cypress.io/), [Appium](https://appium.io/), [Playwright](https://playwright.dev/), etc.) will use these element locators to interact (click, enter, check, etc.) with the app when you kick off an automated run. A useful tool to craft and test element locators for your web app would be: [POM Builder (Chrome extension)](https://chrome.google.com/webstore/detail/pom-builder-%E2%80%93-auto-genera/akcejfbfkkjnghlfngighgncolfaghco).
 
 ### Automation API 
 
-An automation interaction consists of two 2 main steps : \[1] Element matching: the automation tool retrieves an "element locator" and matches it with a run-time UI element (usually some waits are applied), \[2] Invoking an UI event on that newly found UI element. As an Automation Engineer, we'll need to get familiar with the API that the automation library provides. For each platform, we have different techniques thus different API to learn:
+An automation interaction consists of two 2 main steps : \[1] Element matching: the automation tool retrieves an "element locator" and matches it with a run-time UI element (usually some waits are applied), \[2] Invoking a UI event on that newly found UI element. As an Automation Engineer, we'll need to get familiar with the API that the automation library provides. For each platform, we have different techniques thus different API to learn:
 
 * **Desktop:** Reflection, Windows API (use the SendInput() function to simulate a mouse click or key stroke), Microsoft UIA, [WinAppDriver API](https://github.com/microsoft/WinAppDriver), etc.
 * **Web:** Invoking Javascript events, Selenium [WebDriver API](https://www.w3.org/TR/webdriver1/), [Playwright API](https://playwright.dev/docs/api/class-playwright), etc.
@@ -53,7 +53,7 @@ Usually when we pick an automation framework with a corresponding unit test fram
 
 ### Reusability 
 
-For web projects, go ahead with the *PageObject Model (POM)*. For other projects, try to wrap repetitive chunks of test steps into a higher-level reusable functions so that you can call it over again and again instead of reinventing the wheel. Reusability is very beneficial because you can scale up fast while keeping the maintenance cost cheap.
+For web projects, go ahead with the *PageObject Model (POM)*. For other projects, try to wrap repetitive chunks of test steps into a higher-level reusable function so that you can call it over again and again instead of reinventing the wheel. Reusability is very beneficial because you can scale up fast while keeping the maintenance cost cheap.
 
 ### Data-Driven 
 
@@ -61,7 +61,7 @@ Sometimes we'll find that executing a test repeatedly with different parameter c
 
 ### Test Execution 
 
-Automation runs are a bit different from manual test execution. We'll need to ensure that the test environment is stable so that we don't encounter environment issues (lack of dependencies, wrong app under test, wrong OS, etc.) that have nothing to do with the quality of the app under test itself.
+Automation runs are a bit different from manual test execution. We'll need to ensure that the test environment is stable so that we don't encounter environment issues (lack of dependencies, the wrong app under test, wrong OS, etc.) that have nothing to do with the quality of the app under test itself.
 
 ### CI/CD Integration 
 
