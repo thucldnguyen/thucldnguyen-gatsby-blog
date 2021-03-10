@@ -92,10 +92,12 @@ Cypress could’ve made our life easier by adding some dependency injection to d
 
 Pick Cypress if you’re:
 
-1. Comfortable coding in JavaScript or Typescript
-2. Happy with no test execution parallelizing
-3. Pleased with testing on Chrome only
+1. Comfortable with coding in JavaScript or Typescript
+2. Happy with no parallelized test execution 
+3. Okay with testing on Chrome only
 4. Not required to write too many business-level tests
 5. Content with no page objects or importing page objects by hand
 
-**This article doesn’t intend to undermine the hard work and values of Cypress.** I’m just trying to uncover the hidden sides of Cypress so that the tester community in general would make wiser tooling decisions. *If you’re a fan of Cypress, don’t let me discourage you. If you think some of the points I made are unfair or lack of evidence, please feel free to say so in the comment section. Happy testing!*
+**This article doesn’t intend to undermine the hard work and value of Cypress.** I’m just trying to uncover some hidden sides of Cypress so that the testing community in general would make wiser decisions. _If you’re a fan of Cypress, don’t let me discourage you. If you think some of the points I made were unfair or not substantial, please feel free to say so in the comment section below._ 
+
+Happy testing!
