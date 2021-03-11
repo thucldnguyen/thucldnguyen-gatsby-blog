@@ -5,15 +5,15 @@ title: About Thuc Nguyen
 ---
 Thank you for visiting [www.thucldnguyen.com](https://www.thucldnguyen.com)! 
 
-My name is Thuc Nguyen. And this is my personal blog about Automated Testing and Product Management.
+My name is **Thuc Le Duy Nguyen**. And this is my personal blog about Automated Testing and Product Management. I'm also active on Quora. Check out my Quora answers (mostly about Test Automation) here: https://www.quora.com/profile/Thuc-Nguyen-51
 
 ![Lake Tahoe](/assets/banner.jpg "Lake Tahoe")
 
-I love software testing, especially Automated testing. That’s why you’ll find this blog full of pieces about this topic. Hopefully a passionate tester could find quality contents here to enrich testing knowledge that helps conquer more complex testing challenges.
+I love Software Testing, especially Automated Testing. That’s why you’ll find this blog full of posts about this topic. Hopefully a passionate tester could find quality contents here to enrich testing knowledge that helps conquer more complex testing challenges.
 
 I also read for fun. My favorite reading topics include Technology, Business, Psychology, History, Philosophy, Startup, Growth Hacking, and especially Product Management.
 
-As a writer, I sometimes guest-blogged here and there. So I’ve collected all the bits and pieces I wrote (mostly about software testing) on this blog. Check them out. 
+I sometimes guest-blogged here and there. So I’ve collected all the bits and pieces I wrote (mostly about software testing) on this blog. Check them out below. 
 
 # All Writings
 
@@ -49,4 +49,4 @@ As a writer, I sometimes guest-blogged here and there. So I’ve collected all t
 
 * [How do we overcome existential nihilism?](https://www.quora.com/How-do-we-overcome-existential-nihilism/answer/Thuc-Nguyen-51?ch=10&share=b3a477a1&srid=pOve)
 
-Like What You Read? Subscribe to my newsletter to receive new contents once in a while. Your contact will not be shared with any 3rd party.
+Like What You Read? Check out my blog: https://www.thucldnguyen.com/blog. Have burning question, feel free to contact me: https://www.thucldnguyen.com/contact
