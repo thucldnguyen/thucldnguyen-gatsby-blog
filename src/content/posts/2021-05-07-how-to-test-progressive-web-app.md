@@ -1,18 +1,14 @@
 ---
 template: blog-post
 title: How to Test Progressive Web App
-slug: how-to-test-progressive-web-app
+slug: /blog/how-to-test-progressive-web-app
 date: 2021-05-07 15:48
 description: Unlike normal web apps, PWA poses its own unique challenges that
   test engineers and automation engineers must pay attention to. This article
   discusses these unique testing requirements of PWA and how to approach them.
 featuredImage: /assets/how-to-test-progressive-web-app.png
 ---
-Of course, you can test **Progressive Web App (PWA)** manually just like any other web app by going through the test scenarios step by step and validating the app’s functionalities along the way. 
-
-You can also automate PWA just like normal web apps using popular frameworks like [Selenium](http://selenium.dev/ "selenium.dev"), [Cypress](http://cypress.io/ "cypress.io"), [Puppeteer](https://developers.google.com/web/tools/puppeteer "developers.google.com"), [Playwright](https://playwright.dev/ "playwright.dev"), [Robot](https://robotframework.org/ "robotframework.org"), [Protractor](https://www.protractortest.org/ "www.protractortest.org"), [TestProject](http://testproject.io/ "testproject.io"), etc.
-
-However, there are some unique aspects of PWA that you have to pay attention to compared to normal web apps.
+Of course, you can test **Progressive Web App (PWA)** manually just like any other web app by going through the test scenarios step by step and validating the app’s functionalities along the way. You can also automate PWA just like normal web apps using popular frameworks like [Selenium](http://selenium.dev/ "selenium.dev"), [Cypress](http://cypress.io/ "cypress.io"), [Puppeteer](https://developers.google.com/web/tools/puppeteer "developers.google.com"), [Playwright](https://playwright.dev/ "playwright.dev"), [Robot](https://robotframework.org/ "robotframework.org"), [Protractor](https://www.protractortest.org/ "www.protractortest.org"), [TestProject](http://testproject.io/ "testproject.io"), etc. However, there are some unique aspects of PWA that you have to pay attention to compared to normal web apps.
 
 * **Offline Caching -** Unlike normal web apps, PWA is expected to function normally despite being offline (no internet connection). PWA can pull off this magic thanks to a service worker. You should make sure that this offline requirement is satisfied by simulating degraded or no network connectivity.
 * **Sensor Integration -** Can your PWA work normally with a camera and mic within a browser? Integrating with sensors is a big advantage of PWA and if your PWA makes use of sensors, make sure you don’t miss that part in your testing & automation.
@@ -26,7 +22,7 @@ However, there are some unique aspects of PWA that you have to pay attention to 
 * **Accessibility Testing -** Unlike normal web apps which don’t involve strict accessibility requirements, PWA must pass these accessibility tests. Again, Lighthouse is your best guide. Check out this [blog post](https://altitudemarketing.com/blog/easy-guide-website-accessibility/ "altitudemarketing.com").
 * **Coverage Matrix -** It’s worthwhile to note that when testing PWA, you must cover a huge matrix of browser versions, desktop OS versions, mobile OS versions, form factors, and screen sizes. Test execution must occur continuously whenever a new browser version comes out. Thus, automation is unavoidable.
 
-![](https://qph.fs.quoracdn.net/main-qimg-0183ef339578774147a014df254a26f7)
+![Coverage Matrix](https://qph.fs.quoracdn.net/main-qimg-0183ef339578774147a014df254a26f7 "Coverage Matrix")
 
 *Credit: Perfecto - [The 2021 Guide to Progressive Web App Testing](https://www.perfecto.io/resources/web-app-testing "www.perfecto.io")*
 
