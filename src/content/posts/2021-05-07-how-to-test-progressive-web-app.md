@@ -10,17 +10,49 @@ featuredImage: /assets/how-to-test-progressive-web-app.png
 ---
 Of course, you can test **Progressive Web App (PWA)** manually just like any other web app by going through the test scenarios step by step and validating the app’s functionalities along the way. You can also automate PWA just like normal web apps using popular frameworks like [Selenium](http://selenium.dev/ "selenium.dev"), [Cypress](http://cypress.io/ "cypress.io"), [Puppeteer](https://developers.google.com/web/tools/puppeteer "developers.google.com"), [Playwright](https://playwright.dev/ "playwright.dev"), [Robot](https://robotframework.org/ "robotframework.org"), [Protractor](https://www.protractortest.org/ "www.protractortest.org"), [TestProject](http://testproject.io/ "testproject.io"), etc. However, there are some unique aspects of PWA that you have to pay attention to compared to normal web apps.
 
-* **Offline Caching -** Unlike normal web apps, PWA is expected to function normally despite being offline (no internet connection). PWA can pull off this magic thanks to a service worker. You should make sure that this offline requirement is satisfied by simulating degraded or no network connectivity.
-* **Sensor Integration -** Can your PWA work normally with a camera and mic within a browser? Integrating with sensors is a big advantage of PWA and if your PWA makes use of sensors, make sure you don’t miss that part in your testing & automation.
-* **Push Notification -** Can your PWA perform push notifications successfully within a browser? Unlike normal web apps, the ability to deploy push notifications is a big advantage of PWA. If your PWA makes use of push notifications, make sure you don’t miss them in your testing & automation.
-* **Installable -** Being installable is another big advantage of PWA compared to normal web apps. Users who install your PWA on their mobile devices tend to engage with it more often. So make sure that it’s installable whenever you release a new version of your PWA.
-* **Validate PWA Splash Screen -** When end-users open up your PWA from their home screen after installation, they’ll see a [splash screen](https://web.dev/splash-screen/ "web.dev"). This splash screen helps make your PWA feel like a native app. Make sure you configure a custom splash screen for your PWA.
-* **PWA Manifest -** Make sure that your PWA has a valid web manifest. This can be done manually once in a while but it’s quite unique to PWA compared to normal web apps. Check out this [manifest validator](https://manifest-validator.appspot.com/ "manifest-validator.appspot.com").
-* **Always HTTPS -** Make sure that your PWA always redirects HTTP traffic to HTTPS. This is a must-have for PWA because PWA has to enable secure web features for all your users.
-* **Responsiveness -** Of course, normal web apps must display correctly in many form factors and on many screen sizes too. This is not unique to PWA but unlike web apps, the bar for PWA is much higher which means you must increase your test coverage.
-* **Client-side Performance Testing -** Take full advantage of Google Lighthouse to measure the performance of your PWA on the client-side (not to be confused with traditional performance testing that involves the responsiveness of the server). Lighthouse is your best friend.
-* **Accessibility Testing -** Unlike normal web apps which don’t involve strict accessibility requirements, PWA must pass these accessibility tests. Again, Lighthouse is your best guide. Check out this [blog post](https://altitudemarketing.com/blog/easy-guide-website-accessibility/ "altitudemarketing.com").
-* **Coverage Matrix -** It’s worthwhile to note that when testing PWA, you must cover a huge matrix of browser versions, desktop OS versions, mobile OS versions, form factors, and screen sizes. Test execution must occur continuously whenever a new browser version comes out. Thus, automation is unavoidable.
+## **\#1. Offline Caching**
+
+Unlike normal web apps, PWA is expected to function normally despite being offline (no internet connection). PWA can pull off this magic thanks to a service worker. You should make sure that this offline requirement is satisfied by simulating degraded or no network connectivity.
+
+## **\#2. Sensor Integration**
+
+Can your PWA work normally with a camera and mic within a browser? Integrating with sensors is a big advantage of PWA and if your PWA makes use of sensors, make sure you don’t miss that part in your testing & automation.
+
+## **\#3. Push Notification**
+
+Can your PWA perform push notifications successfully within a browser? Unlike normal web apps, the ability to deploy push notifications is a big advantage of PWA. If your PWA makes use of push notifications, make sure you don’t miss them in your testing & automation.
+
+## **\#4. Installable**
+
+Being installable is another big advantage of PWA compared to normal web apps. Users who install your PWA on their mobile devices tend to engage with it more often. So make sure that it’s installable whenever you release a new version of your PWA.
+
+## **\#5. Validate PWA Splash Screen** 
+
+When end-users open up your PWA from their home screen after installation, they’ll see a [splash screen](https://web.dev/splash-screen/ "web.dev"). This splash screen helps make your PWA feel like a native app. Make sure you configure a custom splash screen for your PWA.
+
+## **\#6. PWA Manifest**
+
+Make sure that your PWA has a valid web manifest. This can be done manually once in a while but it’s quite unique to PWA compared to normal web apps. Check out this [manifest validator](https://manifest-validator.appspot.com/ "manifest-validator.appspot.com").
+
+## **\#7. Always HTTPS**
+
+Make sure that your PWA always redirects HTTP traffic to HTTPS. This is a must-have for PWA because PWA has to enable secure web features for all your users.
+
+## **\#8. Responsiveness**
+
+Of course, normal web apps must display correctly in many form factors and on many screen sizes too. This is not unique to PWA but unlike web apps, the bar for PWA is much higher which means you must increase your test coverage.
+
+## **\#9. Client-side Performance Testing** 
+
+Take full advantage of Google Lighthouse to measure the performance of your PWA on the client-side (not to be confused with traditional performance testing that involves the responsiveness of the server). Lighthouse is your best friend.
+
+## **\#10. Accessibility Testing** 
+
+Unlike normal web apps which don’t involve strict accessibility requirements, PWA must pass these accessibility tests. Again, Lighthouse is your best guide. Check out this [blog post](https://altitudemarketing.com/blog/easy-guide-website-accessibility/ "altitudemarketing.com").
+
+## **\#11. Coverage Matrix** 
+
+When testing PWA, you must cover a huge matrix of browser versions, desktop OS versions, mobile OS versions, form factors, and screen sizes. Test execution must occur continuously whenever a new browser version comes out. Thus, automation is unavoidable.
 
 ![Coverage Matrix](https://qph.fs.quoracdn.net/main-qimg-0183ef339578774147a014df254a26f7 "Coverage Matrix")
 
