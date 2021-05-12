@@ -65,6 +65,8 @@ It's a dangerous trap for PM to work backward from a preconceived solution. Cust
 
 Most importantly, we're not empowering the engineers. No engineering team wants to be treated as a ***"feature factory"*** -- mindlessly churning out preconceived solutions but not solving business problems. The best way to empower engineers is to give them a problem and provide a business context (guardrails) then let them figure out the best way to solve it on their own. You'll be amazed by the creativity of your engineers.
 
+![George  Patton Quotes - Source: https://twitter.com/AlexBangash/status/803414936806457344?s=20](/assets/george-patton-quotes.jpg "George  Patton Quotes - Source: https://twitter.com/AlexBangash/status/803414936806457344?s=20")
+
 ## \#3. Develop Passion for Technology 
 
 Engineers respect people with technology prowess, *period*. They will immediately flip their ***“bozo bit”*** if we can’t make heads or tails of an object, a property, and a class. Or if we cannot tell the differences between *static site generator, single page application (SPA), progressive web app (PWA), and a normal web page*. And once lost, it’s arduous to change their mind and regain their trust later on.
@@ -85,7 +87,7 @@ A software engineering background helps me a lot in discussing technical problem
 
 Providing the business context including market dynamics, competitive analysis, the business outcomes that the organization is pushing for, etc. is a key value-add of product managers. When presenting to the team, we have to make sure we highlight system thinking behind every product decision. For instance, if we prioritize metrics like increasing Acquisition, we’ll inevitably hurt Retention. A trade-off has to be made. We can’t have it both ways.
 
-![Leslie Kilgore (Netflix) - Lea with context, not control](/assets/leslie-quotes.png "Leslie Kilgore (Netflix) - Lea with context, not control")
+![Leslie Kilgore (Netflix) - Lead with context, not control](/assets/leslie-quotes.png "Leslie Kilgore (Netflix) - Lead with context, not control")
 
 Since I cared about my job and I wanted to be better every day, I made a commitment to learn more about business. I took online courses like Creating a Business Plan, Financial Modeling for Non-Financial Managers, Advanced Product Management, Digital Marketing, etc. on Udemy and LinkedIn Learning. I taught myself useful models like Porter’s 5 Forces, SWOT Analysis, Positioning in Marketing, etc.
 
