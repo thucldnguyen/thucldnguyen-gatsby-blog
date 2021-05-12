@@ -28,7 +28,7 @@ But soon afterward, I finally realized the power of doing the *legwork* beforeha
 
 Why preparation pays off exponentially? Because preparations create an ***aura of "I've got this"*** around you as a product manager. In other words, better preparations help you establish a ***reputation*** of an expert. And everybody loves to work with experts whom they can trust and respect. Lenny Rachitsky included this quality in his *"14 Habits of Highly Effective Product Managers"* tweet below. I've definitely recommended reading it. 
 
-![14 habits of highly effective product managers](/assets/14-habbits-of-great-product-manager.png "14 habits of highly effective product managers Source: [Lenny Rachitsky ](https://twitter.com/lennysan/status/1389611792741986305?s=20)")
+![14 habits of highly effective product managers](/assets/14-habbits-of-great-product-manager.png "14 habits of highly effective product managers Source: [Lenny Rachitsky](https://twitter.com/lennysan/status/1389611792741986305?s=20)")
 
 ## \#2. Be the Voice of the Customer 
 
