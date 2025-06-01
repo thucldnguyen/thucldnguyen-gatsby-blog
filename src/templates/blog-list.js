@@ -72,8 +72,7 @@ export const blogListQuery = graphql`
 						featuredImage {
 							childImageSharp {
                 gatsbyImageData(
-                  width: 540
-                  height: 360
+                  layout: FULL_WIDTH
                   quality: 80
                   placeholder: BLURRED
                   transformOptions: {cropFocus: CENTER}

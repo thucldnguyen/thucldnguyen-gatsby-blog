@@ -8,7 +8,7 @@ import PostCard from "./post-card"
 const PostMaker = ({ data }) => (
   <section className="home-posts">
     <h2>Latest in <strong>Blog</strong> <span className="icon -right"><RiArrowDownLine/></span></h2>
-    <div className="grids col-1 sm-2 lg-3">
+    <div className="grids col-1 sm-2 lg-3" style={{ overflow: 'hidden' }}>
       {data}
     </div>
     <Link 
@@ -44,8 +44,7 @@ export default function BlogListHome() {
                   featuredImage {
                     childImageSharp {
                       gatsbyImageData(
-                        width: 540
-                        height: 360
+                        layout: FULL_WIDTH
                         quality: 80
                         placeholder: BLURRED
                         transformOptions: {cropFocus: CENTER}
