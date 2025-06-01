@@ -22,41 +22,8 @@ const styles = {
   }
 }
 
-export const blogListQuery = graphql`
-  query blogListQuery($skip: Int!, $limit: Int!) {
-    allMarkdownRemark(
-      sort: { order: DESC, fields: [frontmatter___date] }
-      filter: { frontmatter: { template: { eq: "blog-post" } } }
-      limit: $limit
-      skip: $skip
-		) {
-      edges {
-        node {
-          id
-          excerpt(pruneLength: 250)
-          frontmatter {
-            date(formatString: "MMMM DD, YYYY")
-            slug
-						title
-						featuredImage {
-							childImageSharp {
-								fluid(maxWidth: 540, maxHeight: 360, quality: 80) {
-                  ...GatsbyImageSharpFluid
-                  ...GatsbyImageSharpFluidLimitPresentationSize
-                }
-							}
-						}
-          }
-        }
-      }
-    }
-  }
-`
-const Pagination = (props) => (
-  <div 
-    className="pagination"
-    sx={styles.pagination}
-  >
+const Pagination = props => (
+  <div className="pagination" sx={styles.pagination}>
     <ul>
       {!props.isFirst && (
         <li>
@@ -66,7 +33,7 @@ const Pagination = (props) => (
         </li>
       )}
       {Array.from({ length: props.numPages }, (_, i) => (
-        <li key={`pagination-number${i + 1}`} >
+        <li key={`pagination-number${i + 1}`}>
           <Link
             to={`${props.blogSlug}${i === 0 ? '' : i + 1}`}
             className={props.currentPage === i + 1 ? "is-active num" : "num"}
@@ -85,6 +52,41 @@ const Pagination = (props) => (
     </ul>
   </div>
 )
+
+export const blogListQuery = graphql`
+  query blogListQuery($skip: Int!, $limit: Int!) {
+    allMarkdownRemark(
+      sort: { order: DESC, fields: [frontmatter___date] }
+      filter: { frontmatter: { template: { eq: "blog-post" } } }
+      limit: $limit
+      skip: $skip
+		) {
+      edges {
+        node {
+          id
+          excerpt(pruneLength: 250)
+          frontmatter {
+            date(formatString: "MMMM DD, YYYY")
+            slug
+						title
+						featuredImage {
+							childImageSharp {
+                gatsbyImageData(
+                  width: 540
+                  height: 360
+                  quality: 80
+                  placeholder: BLURRED
+                  transformOptions: {cropFocus: CENTER}
+                )
+							}
+						}
+          }
+        }
+      }
+    }
+  }
+`
+
 class BlogIndex extends React.Component {
   render() {
     

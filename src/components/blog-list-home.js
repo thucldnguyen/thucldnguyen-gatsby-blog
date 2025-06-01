@@ -7,7 +7,7 @@ import PostCard from "./post-card"
 
 const PostMaker = ({ data }) => (
   <section className="home-posts">
-    <h2>Latest in <strong>Blog</strong> <span class="icon -right"><RiArrowDownLine/></span></h2>
+    <h2>Latest in <strong>Blog</strong> <span className="icon -right"><RiArrowDownLine/></span></h2>
     <div className="grids col-1 sm-2 lg-3">
       {data}
     </div>
@@ -18,7 +18,7 @@ const PostMaker = ({ data }) => (
         variant: 'links.button'
       }}
     >
-      See more<span class="icon -right"><RiArrowRightSLine/></span>
+      See more<span className="icon -right"><RiArrowRightSLine/></span>
     </Link>
   </section>
 )
@@ -43,10 +43,13 @@ export default function BlogListHome() {
                   title
                   featuredImage {
                     childImageSharp {
-                      fluid(maxWidth: 540, maxHeight: 360, quality: 80) {
-                        ...GatsbyImageSharpFluid
-                        ...GatsbyImageSharpFluidLimitPresentationSize
-                      }
+                      gatsbyImageData(
+                        width: 540
+                        height: 360
+                        quality: 80
+                        placeholder: BLURRED
+                        transformOptions: {cropFocus: CENTER}
+                      )
                     }
                   }
                 }

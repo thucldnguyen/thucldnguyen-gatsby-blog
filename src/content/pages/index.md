@@ -3,9 +3,9 @@ template: index-page
 slug: /
 title: Thuc Nguyen
 tagline: Personal Blog
-featuredImage: /assets/ava.jpg
+featuredImage: /assets/ava2.jpeg
 cta:
   ctaText: Know more
   ctaLink: /about
 ---
-A blog about Product Management, Software Testing and Automated Testing.
+My blog about life as a product manager. 

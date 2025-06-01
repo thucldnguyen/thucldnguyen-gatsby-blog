@@ -1,12 +1,13 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui'
 import { Link, graphql } from "gatsby"
-import Img from "gatsby-image"
+import { GatsbyImage } from "gatsby-plugin-image"
 import { RiArrowRightLine, RiArrowLeftLine } from "react-icons/ri"
 import { DiscussionEmbed } from "disqus-react"
 
 import Layout from "../components/layout"
-import SEO from '../components/seo';
+import SEO from '../components/seo'
+import { useReadingTime } from '../hooks/useReadingTime'
 
 const styles = {
   'article blockquote': {
@@ -60,12 +61,12 @@ const Pagination = (props) => (
   </div>
 )
 
-
 const Post = ({ data, pageContext }) => {
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html, excerpt } = markdownRemark
-  const Image = frontmatter.featuredImage ? frontmatter.featuredImage.childImageSharp.fluid : ""
+  const Image = frontmatter.featuredImage ? frontmatter.featuredImage.childImageSharp.gatsbyImageData : ""
   const { previous, next } = pageContext
+  const readingTime = useReadingTime(html)
 
   let props = {
     previous,
@@ -90,13 +91,14 @@ const Post = ({ data, pageContext }) => {
         <header className="featured-banner">
           <section className="article-header">
             <h1>{frontmatter.title}</h1>
-            <time>{frontmatter.date}</time>
+            <div className="post-meta">
+              <time>{frontmatter.date}</time>
+              <span className="reading-time" sx={{ ml: 3 }}>{readingTime}</span>
+            </div>
           </section>
           {Image ? (
-            <Img 
-              fluid={Image} 
-              objectFit="cover"
-              objectPosition="50% 50%"
+            <GatsbyImage 
+              image={Image}
               alt={frontmatter.title + ' - Featured image'}
               className="featured-image"
             />
@@ -133,13 +135,13 @@ export const pageQuery = graphql`
         description
         featuredImage {
           childImageSharp {
-            fluid(maxWidth: 1980, maxHeight: 968, quality: 80, srcSetBreakpoints: [350, 700, 1050, 1400]) {
-              ...GatsbyImageSharpFluid
-              ...GatsbyImageSharpFluidLimitPresentationSize
-            }
-            sizes {
-              src
-            }
+            gatsbyImageData(
+              width: 1980
+              height: 968
+              quality: 80
+              placeholder: BLURRED
+              transformOptions: {cropFocus: CENTER}
+            )
           }
         }
       }

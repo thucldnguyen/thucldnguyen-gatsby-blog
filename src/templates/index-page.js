@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui'
 import { graphql, Link } from "gatsby"
-import Img from "gatsby-image"
+import { GatsbyImage } from "gatsby-plugin-image"
 import { RiArrowRightSLine } from "react-icons/ri"
 import { RiFacebookBoxFill, RiTwitterFill, RiLinkedinBoxFill, RiYoutubeFill, RiInstagramFill, RiRssFill, RiGithubFill, RiTelegramFill, RiPinterestFill, RiSnapchatFill, RiSkypeFill,RiDribbbleFill, RiMediumFill, RiBehanceFill} from "react-icons/ri";
 import { FaWordpress, FaVk} from "react-icons/fa";
@@ -21,12 +21,13 @@ export const pageQuery = graphql`
         tagline
         featuredImage {
           childImageSharp {
-            fluid(maxWidth: 480, maxHeight: 380, quality: 80, srcSetBreakpoints: [960, 1440]) {
-              ...GatsbyImageSharpFluid
-            }
-            sizes {
-              src
-            }
+            gatsbyImageData(
+              width: 480
+              height: 380
+              quality: 80
+              placeholder: BLURRED
+              transformOptions: {cropFocus: CENTER}
+            )
           }
         }
         cta {
@@ -41,10 +42,10 @@ export const pageQuery = graphql`
 const HomePage = ({ data }) => {
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
-  const Image = frontmatter.featuredImage ? frontmatter.featuredImage.childImageSharp.fluid : ""
+  const Image = frontmatter.featuredImage ? frontmatter.featuredImage.childImageSharp.gatsbyImageData : ""
   const sIcons = Icons.socialIcons.map(icons => {
     return(
-      <div>
+      <div key={icons.icon}>
         { icons.icon === "facebook" ? (<Link to={icons.url} target="_blank"><RiFacebookBoxFill/></Link>) :"" }
         { icons.icon === "twitter" ? (<Link to={icons.url} target="_blank"><RiTwitterFill/></Link>) : "" }
         { icons.icon === "linkedin" ? (<Link to={icons.url} target="_blank"><RiLinkedinBoxFill/></Link>) : "" }
@@ -56,11 +57,11 @@ const HomePage = ({ data }) => {
         { icons.icon === "pinterest" ? (<Link to={icons.url} target="_blank"><RiPinterestFill/></Link>) : "" }
         { icons.icon === "snapchat" ? (<Link to={icons.url} target="_blank"><RiSnapchatFill/></Link>) : "" }
         { icons.icon === "skype" ? (<Link to={icons.url} target="_blank"><RiSkypeFill/></Link>) : "" }
-        { icons.icon === "wordpress" ? (<Link to={icons.url} target="_blank"><FaWordpress/></Link>  ) : "" }
+        { icons.icon === "wordpress" ? (<Link to={icons.url} target="_blank"><FaWordpress/></Link>) : "" }
         { icons.icon === "dribbble" ? (<Link to={icons.url} target="_blank"><RiDribbbleFill/></Link>) : "" }
         { icons.icon === "medium" ? (<Link to={icons.url} target="_blank"><RiMediumFill/></Link>) : "" }
         { icons.icon === "behance" ? (<Link to={icons.url} target="_blank"><RiBehanceFill/></Link>) : "" }
-        { icons.icon === "vk" ? (<Link to={icons.url} target="_blank"><FaVk/></Link>   ) : "" }
+        { icons.icon === "vk" ? (<Link to={icons.url} target="_blank"><FaVk/></Link>) : "" }
       </div>
     )
   })
@@ -86,7 +87,7 @@ const HomePage = ({ data }) => {
               variant: 'links.button'
             }}
           >
-            {frontmatter.cta.ctaText}<span class="icon -right"><RiArrowRightSLine/></span>
+            {frontmatter.cta.ctaText}<span className="icon -right"><RiArrowRightSLine/></span>
           </Link>
           <div  className="social-icons" sx={indexStyles.socialIcons}>
             {sIcons}
@@ -94,8 +95,8 @@ const HomePage = ({ data }) => {
         </div>
         <div>
           {Image ? (
-            <Img 
-              fluid={Image} 
+            <GatsbyImage
+              image={Image}
               alt={frontmatter.title + ' - Featured image'}
               className="featured-image"
             />
