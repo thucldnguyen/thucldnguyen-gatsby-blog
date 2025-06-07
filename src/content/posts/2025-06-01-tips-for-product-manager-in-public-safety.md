@@ -44,7 +44,7 @@ These weren't edge cases - they were everyday moments where our product needed t
 
 I don't share this to suggest I've figured it all out - far from it. I'm still learning every day in this space. But if there's one thing I've come to appreciate deeply, it's the value of immersing yourself in your users' real world. No amount of surveys, stakeholder meetings or document readings can fully replace the insight you get from sitting beside an officer in a ride-along, walking through a station, or talking to customers directly either via zoom or a conference. It's humbling. 
 
-Law enforcement is messy, slow-moving, and often politically complicated. Change takes time. Adoption takes pateince. But it's also some of the most meaningful work I've ever done. 
+Law enforcement is messy, slow-moving, and often politically complicated. Change takes time. Adoption takes patience. But it's also some of the most meaningful work I've ever done. 
 
 If you're a product manager working on tools that impact people's safety, justice or well-being, I'd love to connect and hear how you stay close to your users and keep learning. And if you're curious about working as a product manager for law enforcement, I can honestly tell you this: it's not easy - but it's incredibly rewarding.
 
