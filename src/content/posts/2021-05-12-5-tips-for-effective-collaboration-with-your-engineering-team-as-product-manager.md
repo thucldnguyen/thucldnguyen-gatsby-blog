@@ -16,7 +16,7 @@ As a product manager, our engineering team is the single group of people that we
 
 > I can’t claim to be the most successful product manager ever. My motto is to “stay hungry and humble” (never let the ego-to-talent ratio out of whack). But I’d still love to contribute my tiny slice of personal experience to the topic. I hope my stories could add some value or at least a fresh perspective to help you improve your craft.
 
-## \#1. Do the Homework
+## \#1. Do your Homework
 
 As product managers, we don’t have direct authority over the engineering team. Some of my old friends from college or high school thought the word “manager” in “product manager” meant I was the boss and I could fire anybody on a whim. I wish I could be that powerful. But in fact, that’s not even slightly true. A product manager is not a boss or manager in the traditional sense. 
 
