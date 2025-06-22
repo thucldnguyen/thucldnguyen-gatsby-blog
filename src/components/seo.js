@@ -47,7 +47,7 @@ const SEO = ({ title, description, image, article }) => {
       {seo.image && <meta property="og:image" content={seo.image} />}
 
       {/* Replace 'YOUR_FACEBOOK_APP_ID' with your actual Facebook App ID */}
-      <meta property="fb:app_id" content="YOUR_FACEBOOK_APP_ID" />
+      <meta property="fb:app_id" content="1704986910127970" />
 
       <meta property="og:site_name" content={defaultTitle} />
       <meta property="og:locale" content="en_US" />

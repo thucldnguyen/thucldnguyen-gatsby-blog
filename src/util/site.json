@@ -2,11 +2,12 @@
   "meta": {
     "title": "Thuc Nguyen Blog",
     "titleTemplate": "%s",
-    "description": "Thuc Nguyen's personal blog about Test Automation and Product Management",
+    "description": "Thuc Nguyen's personal blog",
     "siteUrl": "https://www.thucldnguyen.com",
     "image": "/assets/logo-transparent.png",
     "iconimage": "/assets/logo-transparent.png",
     "twitterUsername": "@thucldnguyen"
   },
   "ga": "UA-135004228-1"
+  "ga4": "G-WBEHL329W9"
 }
