@@ -1,29 +1,13 @@
-/** @jsx jsx */
-import { jsx } from 'theme-ui'
-import React from 'react'
-import { Link , graphql } from "gatsby"
+import React from "react"
+import { Link, graphql } from "gatsby"
 import { RiArrowRightLine, RiArrowLeftLine } from "react-icons/ri"
 
 import Layout from "../components/layout"
 import PostCard from "../components/post-card"
 import SEO from "../components/seo"
 
-const styles = {
-  pagination: {
-    'a': {
-      color: 'muted',
-      '&.is-active': {
-        color: 'text'
-      },
-      '&:hover': {
-        color: 'text'
-      }
-    }
-  }
-}
-
 const Pagination = props => (
-  <div className="pagination" sx={styles.pagination}>
+  <div className="pagination">
     <ul>
       {!props.isFirst && (
         <li>
@@ -56,7 +40,7 @@ const Pagination = props => (
 export const blogListQuery = graphql`
   query blogListQuery($skip: Int!, $limit: Int!) {
     allMarkdownRemark(
-      sort: { order: DESC, fields: [frontmatter___date] }
+      sort: { frontmatter: { date: DESC } }
       filter: { frontmatter: { template: { eq: "blog-post" } } }
       limit: $limit
       skip: $skip
@@ -69,16 +53,7 @@ export const blogListQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             slug
 						title
-						featuredImage {
-							childImageSharp {
-                gatsbyImageData(
-                  layout: FULL_WIDTH
-                  quality: 80
-                  placeholder: BLURRED
-                  transformOptions: {cropFocus: CENTER}
-                )
-							}
-						}
+						featuredImage
           }
         }
       }

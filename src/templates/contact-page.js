@@ -1,7 +1,6 @@
-/** @jsx jsx */
-import { jsx } from 'theme-ui'
+import React from "react"
 import { graphql } from "gatsby"
-import {RiSendPlane2Line} from "react-icons/ri";
+import { RiSendPlane2Line } from "react-icons/ri"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -29,7 +28,7 @@ const Contact = ({data}) => {
   const { frontmatter, html } = markdownRemark
 
   return  (
-    <Layout className="contact-page" sx={contactStyles.contactPage}>
+    <Layout className="contact-page">
       <SEO 
         title={frontmatter.title}
         description={frontmatter.title + " " + site.siteMetadata.title}
@@ -52,10 +51,7 @@ const Contact = ({data}) => {
             <label>Message<textarea name="message" required ></textarea></label>
           </p>
           <p className="text-align-right">
-            <button className="button"            
-            sx={{
-              variant: 'links.button'
-            }} type="submit">Send Message <span className="icon -right"><RiSendPlane2Line/></span></button>
+            <button className="button" type="submit">Send Message <span className="icon -right"><RiSendPlane2Line/></span></button>
           </p>
         </form>
       </div>
@@ -65,18 +61,3 @@ const Contact = ({data}) => {
 }
 
 export default Contact
-
-const contactStyles = {
-  contactPage:{
-    "input":{
-      border:"6px solid",
-      borderColor: "inputBorder",
-      bg: "inputBackground"
-    },
-    "textarea": {
-      border:"6px solid",
-      borderColor: "inputBorder",
-      bg: "inputBackground"
-    }
-  }
-}

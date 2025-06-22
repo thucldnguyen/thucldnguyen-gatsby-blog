@@ -1,62 +1,29 @@
-/** @jsx jsx */
-import { jsx } from 'theme-ui'
+import React from "react"
 import { Link, graphql } from "gatsby"
-import { GatsbyImage } from "gatsby-plugin-image"
+import { DiscussionEmbed } from 'disqus-react'
 import { RiArrowRightLine, RiArrowLeftLine } from "react-icons/ri"
-import { DiscussionEmbed } from "disqus-react"
 
 import Layout from "../components/layout"
-import SEO from '../components/seo'
-import { useReadingTime } from '../hooks/useReadingTime'
+import SEO from "../components/seo"
+import { useReadingTime } from "../hooks/useReadingTime"
 
-const styles = {
-  'article blockquote': {
-    'background-color': 'cardBg'
-  },
-  pagination: {
-    'a': {
-      color: 'muted',
-      '&.is-active': {
-        color: 'text'
-      },
-      '&:hover': {
-        color: 'text'
-      }
-    }
-  }
-}
-
-const Pagination = (props) => (
-  <div 
-    className="pagination -post"
-    sx={styles.pagination}
-  >
+const Pagination = props => (
+  <div className="pagination">
     <ul>
-        {(props.previous && props.previous.frontmatter.template === 'blog-post') && (
-          <li>
-              <Link to={props.previous.frontmatter.slug} rel="prev">
-                <p
-                  sx={{
-                    color: 'muted'
-                  }}
-                >
-                  <span className="icon -left"><RiArrowLeftLine/></span> Previous</p>
-                <span className="page-title">{props.previous.frontmatter.title}</span>
-              </Link>
-          </li>
-        )}
-        {(props.next && props.next.frontmatter.template === 'blog-post') && (
-          <li>
-            <Link to={props.next.frontmatter.slug} rel="next">
-              <p
-                sx={{
-                  color: 'muted'
-                }}
-              >Next <span className="icon -right"><RiArrowRightLine/></span></p>
-              <span className="page-title">{props.next.frontmatter.title}</span>
-            </Link>
-          </li>
-        )}
+      {props.previous && (
+        <li>
+          <Link to={props.previous.frontmatter.slug} rel="prev">
+            <span className="icon -left"><RiArrowLeftLine/></span> Previous
+          </Link>
+        </li>
+      )}
+      {props.next && (
+        <li>
+          <Link to={props.next.frontmatter.slug} rel="next">
+            Next <span className="icon -right"><RiArrowRightLine/></span>
+          </Link>
+        </li>
+      )}
     </ul>
   </div>
 )
@@ -64,7 +31,7 @@ const Pagination = (props) => (
 const Post = ({ data, pageContext }) => {
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html, excerpt } = markdownRemark
-  const Image = frontmatter.featuredImage ? frontmatter.featuredImage.childImageSharp.gatsbyImageData : ""
+  const Image = frontmatter.featuredImage || ""
   const { previous, next } = pageContext
   const readingTime = useReadingTime(html)
 
@@ -93,12 +60,12 @@ const Post = ({ data, pageContext }) => {
             <h1>{frontmatter.title}</h1>
             <div className="post-meta">
               <time>{frontmatter.date}</time>
-              <span className="reading-time" sx={{ ml: 3 }}>{readingTime}</span>
+              <span className="reading-time">{readingTime}</span>
             </div>
           </section>
           {Image ? (
-            <GatsbyImage 
-              image={Image}
+            <img 
+              src={Image}
               alt={frontmatter.title + ' - Featured image'}
               className="featured-image"
             />
@@ -133,17 +100,7 @@ export const pageQuery = graphql`
         slug
         title
         description
-        featuredImage {
-          childImageSharp {
-            gatsbyImageData(
-              width: 1980
-              height: 968
-              quality: 80
-              placeholder: BLURRED
-              transformOptions: {cropFocus: CENTER}
-            )
-          }
-        }
+        featuredImage
       }
     }
   }

@@ -1,6 +1,5 @@
-/** @jsx jsx */
-import { jsx } from 'theme-ui'
-import { Link, StaticQuery, graphql } from "gatsby"
+import React from "react"
+import { graphql, Link, useStaticQuery } from "gatsby"
 import { RiArrowDownLine, RiArrowRightSLine } from "react-icons/ri"
 
 import PostCard from "./post-card"
@@ -14,9 +13,6 @@ const PostMaker = ({ data }) => (
     <Link 
       className="button" 
       to="/blog"
-      sx={{
-        variant: 'links.button'
-      }}
     >
       See more<span className="icon -right"><RiArrowRightSLine/></span>
     </Link>
@@ -24,49 +20,34 @@ const PostMaker = ({ data }) => (
 )
 
 export default function BlogListHome() {
-  return (
-    <StaticQuery 
-      query={graphql`
-        query {
-          allMarkdownRemark(
-            sort: { order: DESC, fields: [frontmatter___date] }
-            filter: { frontmatter: { template: { eq: "blog-post" } } }
-            limit: 6
-          ) {
-            edges {
-              node {
-                id
-                excerpt(pruneLength: 250)
-                frontmatter {
-                  date(formatString: "MMMM DD, YYYY")
-                  slug
-                  title
-                  featuredImage {
-                    childImageSharp {
-                      gatsbyImageData(
-                        layout: FULL_WIDTH
-                        quality: 80
-                        placeholder: BLURRED
-                        transformOptions: {cropFocus: CENTER}
-                      )
-                    }
-                  }
-                }
-              }
+  const data = useStaticQuery(graphql`
+    query {
+      allMarkdownRemark(
+        sort: { frontmatter: { date: DESC } }
+        filter: { frontmatter: { template: { eq: "blog-post" } } }
+        limit: 6
+      ) {
+        edges {
+          node {
+            id
+            excerpt(pruneLength: 250)
+            frontmatter {
+              date(formatString: "MMMM DD, YYYY")
+              slug
+              title
+              featuredImage
             }
           }
-        }`
+        }
       }
-
-      render={ data => {
-          const posts = data.allMarkdownRemark.edges
-            .filter(edge => !!edge.node.frontmatter.date)
-            .map(edge =>
-              <PostCard key={edge.node.id} data={edge.node} />
-          )
-          return <PostMaker data={posts} />
-        } 
-      }
-    />
+    }`
   )
+
+  const posts = data.allMarkdownRemark.edges
+    .filter(edge => !!edge.node.frontmatter.date)
+    .map(edge =>
+      <PostCard key={edge.node.id} data={edge.node} />
+  )
+  
+  return <PostMaker data={posts} />
 }

@@ -13,7 +13,7 @@ $breakpoint-xl: 1200px;
   --primary-color: #5C2941;
   --header-bg: #5C2941;
 
-  --home-link-color: #230cf0;
+  --home-link-color: var(--text-color);
   --home-link-hover-color:  var(--primary-color);
 
   --button-color: #E5C3D3;
@@ -31,4 +31,36 @@ $breakpoint-xl: 1200px;
   // CSS Grid Utility
   --grid-gap: 30px; 
 
+  // Light theme colors
+  --bg-color: #ffffff;
+  --text-color: #333333;
+  --card-bg: #ffffff;
+  --border-color: rgba(0,0,0,0.08);
+  --shadow-color: rgba(0,0,0,0.05);
+  --header-bg: #5C2941;
+  --footer-bg: #5C2941;
+  --nav-text-color: rgba(255, 255, 255, 0.9);
+  --nav-text-hover-color: rgba(255,255,255,1);
+  --nav-text-active-color: rgb(255, 255, 255);
+  --logo-color: #fff;
+  --footer-text-color: #fff;
+}
+
+[data-theme="dark"] {
+  --bg-color: #1a1a1a;
+  --text-color: #ffffff;
+  --card-bg: #2d2d2d;
+  --border-color: rgba(255,255,255,0.1);
+  --shadow-color: rgba(0,0,0,0.3);
+  --header-bg: #2d2d2d;
+  --footer-bg: #5C2941;
+  --home-link-color: var(--text-color);
+  --home-link-hover-color: var(--primary-color);
+  --nav-text-color: rgba(255, 255, 255, 0.9);
+  --nav-text-hover-color: rgba(255,255,255,1);
+  --nav-text-active-color: rgb(255, 255, 255);
+  --logo-color: #fff;
+  --footer-text-color: #fff;
+  --text-color-meta: rgba(255,255,255,0.5);
+  --label-text: #aaa;
 }
