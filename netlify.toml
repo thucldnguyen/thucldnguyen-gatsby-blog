@@ -4,9 +4,7 @@
   
 [build.environment]
   NODE_VERSION = "18.17.0"
-
-[[plugins]]
-  package = "netlify-plugin-gatsby-cache"
+  GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES = "true"
 
 [[redirects]]
   from = "/web-automation-testing/cross-browser-testing-still-relevant/"
