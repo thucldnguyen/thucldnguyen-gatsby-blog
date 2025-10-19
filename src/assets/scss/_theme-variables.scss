@@ -20,7 +20,9 @@ $breakpoint-xl: 1200px;
   --button-alternate-color: #5C2941;
 
   --post-link-color: #0F070B;
-
+  --link-color: var(--primary-color);
+  --link-hover-bg: rgba(92, 41, 65, 0.1);
+  --link-hover-bg-strong: rgba(92, 41, 65, 0.2);
 
   --nav-link-hover-bg: #111;
   --text-color-meta: rgba(0,0,0,0.5);
@@ -63,4 +65,7 @@ $breakpoint-xl: 1200px;
   --footer-text-color: #fff;
   --text-color-meta: rgba(255,255,255,0.5);
   --label-text: #aaa;
+  --link-color: #E5C3D3;
+  --link-hover-bg: rgba(229, 195, 211, 0.15);
+  --link-hover-bg-strong: rgba(229, 195, 211, 0.25);
 }

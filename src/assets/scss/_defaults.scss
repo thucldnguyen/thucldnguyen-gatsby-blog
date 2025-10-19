@@ -19,9 +19,27 @@ main {
 	p { line-height: 1.5; }
 }
 a {
-	color: var(--home-link-color);
-	text-decoration: none;
+	color: var(--link-color);
+	text-decoration: underline;
+	text-decoration-color: var(--link-color);
+	text-decoration-thickness: 1.5px;
+	text-underline-offset: 2px;
+	font-weight: 500;
+	transition: all 0.3s ease;
+	
 	&:hover {
-		color: var(--home-link-hover-color);
+		color: var(--link-color);
+		text-decoration-thickness: 2.5px;
+		text-underline-offset: 1px;
+		background: linear-gradient(120deg, var(--link-hover-bg) 0%, var(--link-hover-bg-strong) 100%);
+		padding: 1px 3px;
+		margin: -1px -3px;
+		border-radius: 3px;
+	}
+	
+	&:focus {
+		outline: 2px solid var(--link-color);
+		outline-offset: 2px;
+		border-radius: 2px;
 	}
 }
