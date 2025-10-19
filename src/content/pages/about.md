@@ -12,7 +12,7 @@ I grew up in Vietnam — a war-torn country where most kids had never even seen 
 
 ![Childhood](/assets/childhood-collage.png "Childhood pictures with mom and dad")
 
-We couldn’t afford luxuries, so when my mom’s friend gifted us her old Intel 80386 computer when I was in 6th grade, it felt like Christmas, Lunar New Year, and a lottery win all rolled into one. To put things in perspective, that machine cost roughly 3.6 ounces of gold — enough to buy half a hectare (1.2 acres) of rice paddy in Vietnam back in the 1990s. But to me, it was worth infinitely more. It was my window into a new world of technology and wonders. 
+We couldn’t afford luxuries, so in my 6th grade when my mom’s friend gifted us her old Intel 80386 computer, it felt like Christmas, Lunar New Year, and a lottery win all rolled into one. To put things in perspective, that machine cost roughly 3.6 ounces of gold — enough to buy half a hectare (1.2 acres) of rice paddy in Vietnam back in the 1990s. But to me, it was worth infinitely more. It was my window into a new world of technology and wonders. 
 
 ![First Computer](/assets/intel-386.jpg "My very first computer looks a lot like this one")
 
