@@ -42,4 +42,24 @@ a {
 		outline-offset: 2px;
 		border-radius: 2px;
 	}
+	
+	// Exclude buttons from link animations
+	&.button {
+		text-decoration: none;
+		font-weight: normal;
+		transition: background .3s linear;
+		
+		&:hover {
+			text-decoration: none;
+			background: var(--button-color);
+			color: var(--button-alternate-color);
+			padding: var(--padding) calc(var(--padding) * 2);
+			margin: 0;
+		}
+		
+		&:focus {
+			outline: 2px solid var(--button-color);
+			outline-offset: 2px;
+		}
+	}
 }
