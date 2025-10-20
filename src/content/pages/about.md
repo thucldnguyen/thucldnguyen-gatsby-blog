@@ -4,67 +4,75 @@ slug: /about
 title: About Me
 ---
 
-You've found me! Welcome to my personal blog: [www.thucldnguyen.com](https://www.thucldnguyen.com)! 
+You've found me! Welcome to my personal blog. 
 
-My name is **Thuc Nguyen** - a Senior Product Manager at [Axon](https://www.axon.com). I'm a proud dad of two: Mira is 2 years young and Mino is a newborn. If you want to know more about me, read on. 
+My name is **Thuc Nguyen** - a Senior Product Manager at [Axon](https://www.axon.com), husband and proud dad of two: Mira is 2 years young and Mino is brand new. Thanks for stopping by my little corner of the internet!
 
-I grew up in Vietnam — a war-torn country where most kids had never even seen a computer, let alone owned one. My dad was a tradditional medicine & acupuncture practitioner who had to retire young due to his disabilities. My mom — a nurse with an iron will and a soft heart — carried the family of four on her modest salary. 
+## Early Spark
+
+I grew up in Vietnam, a country still rebuilding after war where most kids had never even seen a computer, let alone owned one. My dad was a tradditional medicine practitioner who had to retire early due to his eyesight. My mom, a nurse with an iron will and a soft heart, kept our family afloat on her modest salary. 
 
 ![Childhood](/assets/childhood-collage.png "Childhood pictures with mom and dad")
 
-We couldn’t afford luxuries, so in my 6th grade when my mom’s friend gifted us her old Intel 80386 computer, it felt like Christmas, Lunar New Year, and a lottery win all rolled into one. To put things in perspective, that machine cost roughly 3.6 ounces of gold — enough to buy half a hectare (1.2 acres) of rice paddy in Vietnam back in the 1990s. But to me, it was worth infinitely more. It was my window into a new world of technology and wonders. 
+Then in 6th grade, magic arrived: my mom’s friend gifted us her old **Intel 80386** computer. It felt like Christmas, Lunar New Year, and a lottery win all rolled into one. To put things in perspective, that machine cost roughly 3.6 ounces of gold — enough to buy half a hectare (1.2 acres) of rice paddy back in the 1990s. But to me, it was priceless. It was my window into a new world of technology and wonders. 
 
 ![First Computer](/assets/intel-386.jpg "My very first computer looks a lot like this one")
 
-I still remember fumbling with the QWERTY keyboard, typing DOS commands and watching the screen respond like magic. I played a few pixelated games, most notably [Prince of Persia](https://en.wikipedia.org/wiki/Prince_of_Persia_(1989_video_game)). While I was mastering DOS, my dad installed Windows 3.1 for me, and I discovered my love for digital art through CorelDraw. Before long, curiosity turned into obsession.
+I still remember fumbling with the QWERTY keyboard, typing DOS commands and watching the screen obey like it was alive. When my dad helped me install Windows 3.1, I discovered CorelDraw and fell in love with digital art. Before long, curiosity turned into obsession.
 
-That passion earned me a spot in an honors class dedicated to competitive programming in middle-school. I was coding for hours everyday, learning discrete mathematics, sorting algorithms, tree traversal, graph theory and so on. Although I loved solving those academic problems like implementing Dijkstra's path finding algorithm in Pascal, I was more drawn to moving pixels on the screen. In my free time, I built little graphical programs — including a fully functional [Tower of Hanoi](https://en.wikipedia.org/wiki/Tower_of_Hanoi) game with a graphical UI on MS DOS. That was my “wow” moment: realizing I could create something interesting out of thin air with just logic, if-else statements, For loops, and a flicker of imagination.
+That obsession earned me a spot in an honors class for competitive programming in middle-school. I was coding for hours everyday, learning discrete mathematics, sorting algorithms, recursion, tree traversal, graph theory and so on. Although I loved solving academic problems like finding the shortest path using Dijkstra's algorithm, I was more drawn to moving pixels on the screen. My "wow" moment came when I built a [Tower of Hanoi](https://en.wikipedia.org/wiki/Tower_of_Hanoi) game with a graphical UI on MS DOS using Pascal. It wasn't pretty but it worked and that was enough to make me feel like a wizard, realizing I could create something interesting out of thin air with just if-else statements, for loops, and a flicker of imagination.
 
-I competed in numerous contests — sometimes winning, sometimes losing, but always learning. My proudest (and most nerve-wracking) moment came in 9th grade when I won first prize in a city-wide programming contest in Ho Chi Minh City — a city of over ten million people and hundreds of thousdands of kids my age. 
-
-What most people didn’t know was that I had almost lost everything. I was so focused on the recursive problem, I forgot to hit save halfway through the contest. My floppy disk failed unexpectedly multiple times, and I had to rewrite my code under brutal time pressure. I submitted my work not even sure if it was saved correctly. When the results came weeks later, I was stunned: I’d actually won a gold medal.
+I competed in numerous contests — sometimes winning, sometimes losing, but always learning. My proudest (and most nerve-wracking) moment came in 9th grade when I won first prize in a city-wide programming contest in Ho Chi Minh City — a city of over ten million people and hundreds of thousdands of kids my age. What no one knew was that I almost blew it. I forgot to hit save halfway through, my floppy disk failed repeatedly, and I had to rewrite my code under brutal time pressure. I submitted my work not even sure if it was saved correctly. When the results came weeks later, I was stunned: I’d actually won a gold medal. It was the sweetest victory of my life. 
 
 ![Prize](/assets/prize-collage.png "Winning gold medals")
 
-Programming wasn’t just a hobby — it was a lifeline. I knew it could pull my family out of poverty and open doors to a better future. My parents, especially my mom, encouraged me every step of the way. From her, I learned grit, empathy, and the power of lifelong learning. (At 64, she speaks French and English fluently but is still improving her French and English)
+Programming wasn’t just a hobby — it was a lifeline. I knew it could pull my family out of poverty and open doors to a better future. My parents, especially my mom, encouraged me every step of the way. From her, I learned grit, empathy, and the joy of lifelong learning. (She's 64 now and still improving her French and English although she's already speaking them fluently)
 
-I joined Lê Hồng Phong — one of the most prestigious high schools in Vietnam, also in an honors class specialized in programming. Graduating from high school, it was a no-brainer to pursue Computer Science in university. Thanks to my background in competitive programming, I passed college programming courses with flying colors and earned my Computer Science degree from Hoa Sen University as valedictorian. 
+I went on to study at **Lê Hồng Phong** — one of Vietnam's most prestigious high schools, also in an honors class specialized in programming. Graduating from high school, it was a no-brainer to pursue Computer Science in university. Thanks to my background in competitive programming, I passed college programming courses with flying colors, graduating from **Hoa Sen University** as valedictorian. 
 
 ![Graduate](/assets/graduate.JPG "Graduate")
 
-By 2010s, I stepped into the professional world at a boutique Silicon Valley firm called [LogiGear](https://www.logigear.com/). My first role was as a Business Analyst — a fancy title that, at the time, mostly meant “write product specs and hope they make sense.” I gradually climbed the ranks to Associate Product Manager, then Product Manager for a test automation platform called [TestArchitect](https://testarchitect.com/). It was a scrappy, hands-on environment where I learned the craft of product management from the ground up: asking the five whys, thinking critically, and structuring every decision with a 1:3:1 approach — one problem, three options, one chosen solution.
+## Learning Product the Hard Way
 
-We were also among the first Microsoft partners to release a Visual Studio automation extension — TestArchitect for Visual Studio (TA4VS) — that made .NET testing a breeze for non-technical testers. Around that time, I spent nearly two years in the U.S. (2016–2017), leading content marketing for our product and writing articles for LogiGear’s own blog and testing communities like TechWell. My mentor, [Do Nguyen](https://www.linkedin.com/in/do-hat-nguyen/), taught me how to think strategically, roadmap like a pro, and tell a story through content. Those lessons shaped my product DNA for years to come.
+By 2010s, I stepped into the professional world at a boutique Silicon Valley firm called [LogiGear](https://www.logigear.com/). My first role was Business Analyst which, at the time, basically meant “write product specs and hope they make sense.” I gradually climbed the ranks to Associate Product Manager, then Product Manager for a test automation platform called [TestArchitect](https://testarchitect.com/). It was a scrappy, hands-on environment where I deepened my tech depth and learned the craft of product management from the ground up: asking the five whys, thinking critically, measuring success and structuring every decision with the 1:3:1 approach.
+
+We became one of Microsoft's first partners to release an automation extension for Visual Studio — TA4VS — which made .NET testing a breeze for non-technical testers. I spent nearly two years in the US (2016–2017), leading content marketing for the product and writing for testing communities like TechWell. My mentor, [Do Nguyen](https://www.linkedin.com/in/do-hat-nguyen/), taught me how to think strategically, build roadmaps, and tell stories that resonate. Those lessons shaped how I work to this day.
 
 ![Lake Tahoe](/assets/banner.jpg "Lake Tahoe")
 
-LogiGear was where I met my beautiful soulmate - Xuyen. We spent our honeymoon in Europe, right before the COVID breakout. Four weeks after we left Milan, Italy closed its borders and imposed its very first shelter-in-place quarantine. It was a close call and we were lucky to say the least!
+LogiGear was also where I met my soulmate - Xuyen. We spent our honeymoon in Europe, right before COVID hit. Four weeks after we left Milan, Italy closed its borders and imposed its very first shelter-in-place quarantine. It was a close call and a great story. 
 
 ![Honey Moon](/assets/honey-moon-collage.png "Honey moon")
 
-After nearly a decade at LogiGear, I joined [Axon](https://www.axon.com/), the tech company best known for the [TASER](https://www.axon.com/products/taser-10) — yes, that TASER. My first product was [Axon Performance](https://www.axon.com/en-vn/products/axon-performance), a tool that helps police agencies track and improve how officers use their TASER weapons, body cameras and in-car cameras through AI-powered video audits conducted by their supervisors. When I joined, Axon Performance had around 11,000 adopted users. Two years later, we crossed 110,000 — a 10X growth. 
+## Building for Public Safety 
 
-I launched multiple product initiatives that customers loved like the TASER Dashboard, the Fleet3 Dashboard, the Weekly Compliance Report, and Priority-Ranked Video Audits all designed to help agencies ensure accountability and performance. Today, over 1,500 police departments rely on Axon Performance to make data-driven decisions that ultimately lead to safer outcomes for both officers and communities.
+After nearly a decade at LogiGear, I joined [Axon](https://www.axon.com/), the tech company best known for the [TASER](https://www.axon.com/products/taser-10). My first product was [Axon Performance](https://www.axon.com/en-vn/products/axon-performance), a tool that helps police agencies track and improve how officers use their TASER weapons, body cameras and in-car cameras through AI-powered video audits. When I joined, Axon Performance had around 11,000 adopted users. Two years later, we crossed 110,000 — a 10X growth. 
+
+More importantly, Performance gave command staff visibility into operations they'd never had before. We launched multiple product initiatives that customers loved like the **TASER Dashboard**, **Fleet3 Dashboard**, **Weekly Compliance Report**, and **Priority-Ranked Video Audits** all designed to help agencies ensure accountability and policy compliance. Today, over 1,500 police departments rely on Axon Performance to make data-driven decisions that ultimately lead to safer outcomes for both officers and communities.
 
 ![TASER Dashboard](/assets/axon-perf.png "Axon Performance - TASER dashboard")
 
-Now, I’m the Sr. Product Manager for one of Axon’s bread-and-butter features: video streaming and evidence playback on Evidence.com. It’s where officers and investigators review digital evidence every day. We’ve cut streaming latency in half, reduced rebuffering, and completely revamped the review workflow. It’s not just a feature — it’s the beating heart of our platform. With around 450,000 monthly active users, it’s humbling to think that more than half of all officers in the U.S. interact with something my team built everyday.
+Today I lead product for one of Axon’s bread-and-butter features: **video streaming and evidence playback** on Evidence.com. It’s where officers and investigators review digital evidence every day. We’ve cut streaming latency in half, reduced rebuffering, and completely revamped the review workflow. It’s not just a feature — it’s the beating heart of our platform. With around 450,000 monthly active users, it’s humbling to think that everyday more than half of all officers in the US interact with something my team built.
 
-Working with law enforcement has given me a unique perspective. I’ve ridden along with departments like San Jose PD, Tucson PD, and Dallas PD. Those ride-alongs taught me how tough police work really is - and how much potential technology has to make it safer and smarter. I remember one officer in Bothell PD manually typing every license plate to check for hotlists - a process that could’ve been automated in seconds via [Automated License Plate Recognition (ALPR)](https://my.axon.com/s/article/FAQs-ALPR?language=en_US). That’s the kind of inefficiency I want to fix.
+Working with law enforcement has given me a unique perspective. During ride-alongs with departments like San Jose PD, Tucson PD, and Dallas PD, I saw how tough police work really is - and how outdated their tools can be. I remember one officer in Bothell PD manually typing every license plate into his MDT to check for hotlists - a task that we could help automate in seconds with [Automated License Plate Recognition (ALPR)](https://my.axon.com/s/article/FAQs-ALPR?language=en_US). That's what drives me: using tech to make critical work safer and smarter.
 
 ![Ride along](/assets/ridealong-collage.png "Ride alongs")
 
-Outside of work, I’m first and foremost a dad. My two kids — Mira is a 2-yo toddler and Mino is a newborn — are my world. Parenthood teaches me more about empathy, patience, and leadership than any management course ever could.
+## Beyond Work
 
-When I’m not chasing deadlines (or my kids), you’ll probably find me cycling, at the gym, or practicing Muay Thai. I actually have a black belt in Taekwondo — earned after 5 years of practice back in school. Martial arts taught me discipline, humility, and the beauty of incremental progress — which ties closely to one of my favorite principles: the 1% rule. If you can get just 1% better every day, those small improvements compound into a result of 37 times better over 365 days.
+Outside of work, I’m first and foremost a dad. My two kids are my world and my daily reminder that leadership is mostly patience, empathy and letting people figure things out (with supervision and snacks).
 
-That’s how I try to live — constantly learning, iterating, and improving. Whether it’s tech, product strategy, or investing, I’m always chasing that next 1%.
+When I’m not chasing deadlines (or my kids), you’ll probably find me cycling, lifting weights at the gym, or practicing Muay Thai. I also hold a black belt in Taekwondo — 5 years of kicks, bruises and humility that taught me discipline and the power of small, consistent improvement. 
 
-So that’s me — a kid from Vietnam who fell in love with an old computer, grew up to build products used by hundreds of thousands of people, and still gets excited by every new line of code and every “aha” moment from a customer.
+That ties closely to one of my favorite ideas: the **1% rule**. If we can get just 1% better every day, we'll be 37 times better over 365 days. That's how I approach life, work, and learning - constant iteration, curiosity, and compound growth. I’m always chasing that next 1%.
+
+## Let's Connect
+
+So that’s me — from a kid tinkering on an 80386 in Vietnam to building products that power half of America’s police force, I’ve learned that technology changes lives when built with empathy, curiosity, and stubborn optimism.
 
 If you’re building something meaningful — something that empowers people, connects communities, or just makes life a little better — I’d love to hear from you.
 
-👉 Drop me a note or find me on LinkedIn. I’m always up for a good conversation about product, tech, or how to make the world 1% better.
+👉 Drop me a note or find me on [LinkedIn](https://www.linkedin.com/in/thucldnguyen/). I’m always up for a good conversation about product, tech, or how to make the world 1% better.
 
 # All Writings
 
