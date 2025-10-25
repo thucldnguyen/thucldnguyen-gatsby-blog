@@ -9,7 +9,7 @@ description: A wave of new test automation tools argue that Cross Browser
   confidence. The argument further explains that since only a small proportion
   of your failures actually result from inconsistencies between browsers, you’re
   safe if you stick with Chrome – the most popular browser on planet Earth.
-featuredImage: /assets/web-browser-icons.jpg
+featuredImage: /assets/web-browser-icons.png
 ---
 # Understanding the Argument
 
