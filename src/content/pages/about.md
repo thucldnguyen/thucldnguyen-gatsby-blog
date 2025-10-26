@@ -14,21 +14,27 @@ I grew up in Vietnam, a country still rebuilding after war where most kids had n
 
 ![Childhood](/assets/childhood-collage.png "Childhood pictures with mom and dad")
 
-Then in 6th grade, magic arrived: my mom’s friend gifted us her old **Intel 80386** computer. It felt like Christmas, Lunar New Year, and a lottery win all rolled into one. To put things in perspective, that machine cost roughly 3.6 ounces of gold — enough to buy half a hectare (1.2 acres) of rice paddy back in the 1990s. But to me, it was priceless. It was my window into a new world of technology and wonders. 
+Then in 6th grade, magic arrived: my mom’s friend gifted us her old **Intel 80386** computer. It felt like Christmas, Lunar New Year, and a lottery win all rolled into one. To put things in perspective, that machine cost roughly 3.6 ounces of gold — enough to buy half a hectare (1.2 acres) of rice paddy back in the 1990s. 
+
+But to me, it was priceless. It was my window into a new world of technology and wonders. 
 
 ![First Computer](/assets/intel-386.jpg "My very first computer looks a lot like this one")
 
 I still remember fumbling with the QWERTY keyboard, typing DOS commands and watching the screen obey like it was alive. When my dad helped me install Windows 3.1, I discovered CorelDraw and fell in love with digital art. Before long, curiosity turned into obsession.
 
-That obsession earned me a spot in an honors class for competitive programming in middle-school. I was coding for hours everyday, learning discrete mathematics, sorting algorithms, recursion, tree traversal, graph theory and so on. Although I loved solving academic problems like finding the shortest path using Dijkstra's algorithm, I was more drawn to moving pixels on the screen. My "wow" moment came when I built a [Tower of Hanoi](https://en.wikipedia.org/wiki/Tower_of_Hanoi) game with a graphical UI on MS DOS using Pascal. It wasn't pretty but it worked and that was enough to make me feel like a wizard, realizing I could create something interesting out of thin air with just if-else statements, for loops, and a flicker of imagination.
+That obsession earned me a spot in an honors class for competitive programming in middle-school. I was coding for hours everyday, learning discrete mathematics, sorting algorithms, recursion, tree traversal, graph theory and so on. 
 
-I competed in numerous contests — sometimes winning, sometimes losing, but always learning. My proudest (and most nerve-wracking) moment came in 9th grade when I won first prize in a city-wide programming contest in Ho Chi Minh City — a city of over ten million people and hundreds of thousdands of kids my age. What no one knew was that I almost blew it. I forgot to hit save halfway through, my floppy disk failed repeatedly, and I had to rewrite my code under brutal time pressure. I submitted my work not even sure if it was saved correctly. When the results came weeks later, I was stunned: I’d actually won a gold medal. It was the sweetest victory of my life. 
+Although I loved solving academic problems like finding the shortest path using Dijkstra's algorithm, I was more drawn to moving pixels on the screen. My "wow" moment came when I built a [Tower of Hanoi](https://en.wikipedia.org/wiki/Tower_of_Hanoi) game with a graphical UI on MS DOS using Pascal. It wasn't pretty but it worked and that was enough to make me feel like a wizard, realizing I could create something interesting out of thin air with just if-else statements, for loops, and a flicker of imagination.
+
+I competed in numerous contests — sometimes winning, sometimes losing, but always learning. My proudest (and most nerve-wracking) moment came in 9th grade when I won first prize in a city-wide programming contest in Ho Chi Minh City — a city of over ten million people and hundreds of thousdands of kids my age. 
+
+What no one knew was that I almost blew it. I forgot to hit save halfway through, my floppy disk failed repeatedly, and I had to rewrite my code under brutal time pressure. I submitted my work not even sure if it was saved correctly. When the results came weeks later, I was stunned: I’d actually won a gold medal. It was the sweetest victory of my life. 
 
 ![Prize](/assets/prize-collage.png "Winning gold medals")
 
-Programming wasn’t just a hobby — it was a lifeline. I knew it could pull my family out of poverty and open doors to a better future. My parents, especially my mom, encouraged me every step of the way. From her, I learned grit, empathy, and the joy of lifelong learning. (She's 64 now and still improving her French and English although she's already speaking them fluently)
+Programming wasn’t just a hobby — it was a lifeline. I knew it could pull my family out of poverty and open doors to a better future. My parents, especially my mom, encouraged me every step of the way. From her, I learned grit, empathy, and the joy of lifelong learning. (She's 64 now and still improving her French and English)
 
-I went on to study at **Lê Hồng Phong** — one of Vietnam's most prestigious high schools, also in an honors class specialized in programming. Graduating from high school, it was a no-brainer to pursue Computer Science in university. Thanks to my background in competitive programming, I passed college programming courses with flying colors, graduating from **Hoa Sen University** as valedictorian. 
+I went on to study at **Lê Hồng Phong** — one of Vietnam's most prestigious high schools, also in an honors class specialized in programming. Graduating from high school, it was a no-brainer to pursue Computer Science in university. Thanks to my background in competitive programming, I graduated as valedictorian from **Hoa Sen University**. 
 
 ![Graduate](/assets/graduate.JPG "Graduate")
 
@@ -52,7 +58,7 @@ More importantly, Performance gave command staff visibility into operations they
 
 ![TASER Dashboard](/assets/axon-perf.png "Axon Performance - TASER dashboard")
 
-Today I lead product for one of Axon’s bread-and-butter features: **video streaming and evidence playback** on Evidence.com. It’s where officers and investigators review digital evidence every day. We’ve cut streaming latency in half, reduced rebuffering, and completely revamped the review workflow. It’s not just a feature — it’s the beating heart of our platform. With around 450,000 monthly active users, it’s humbling to think that everyday more than half of all officers in the US interact with something my team built.
+Now I lead product for one of Axon’s bread-and-butter features: **video streaming and evidence playback** on Evidence.com. It’s where officers and investigators review digital evidence every day. We’ve cut streaming latency in half, reduced rebuffering, and completely revamped the review workflow. It’s not just a feature — it’s the beating heart of our platform. With around 550,000 monthly active users, it’s humbling to think that more than half of all officers in the US interact with something my team built.
 
 Working with law enforcement has given me a unique perspective. During ride-alongs with departments like San Jose PD, Tucson PD, and Dallas PD, I saw how tough police work really is - and how outdated their tools can be. I remember one officer in Bothell PD manually typing every license plate into his MDT to check for hotlists - a task that we could help automate in seconds with [Automated License Plate Recognition (ALPR)](https://my.axon.com/s/article/FAQs-ALPR?language=en_US). That's what drives me: using tech to make critical work safer and smarter.
 
@@ -68,7 +74,7 @@ That ties closely to one of my favorite ideas: the **1% rule**. If we can get ju
 
 ## Let's Connect
 
-So that’s me — from a kid tinkering on an 80386 in Vietnam to building products that power half of America’s police force, I’ve learned that technology changes lives when built with empathy, curiosity, and stubborn optimism.
+So that’s me — from a kid tinkering on an 80386 in Vietnam to building products that power tens of thousands of police agencies worldwide, I’ve learned that technology changes lives when built with empathy, curiosity, and stubborn optimism.
 
 If you’re building something meaningful — something that empowers people, connects communities, or just makes life a little better — I’d love to hear from you.
 

@@ -23,7 +23,7 @@ I wrote crisp updates and specs with the help of AI, so I could handle more asyn
 
 ## The guilt of trying to do it all 
 
-Mira, my daughter often barged into my home office mid-call. "Daddy, come play with me", she'd say and I'd mute my mic, turn off camera and melt a little inside. Those moments gave me joy but also guilt. My wife shouldered most of the childcare so I could focus. She's a champ. But I often felt I was taking advantage of her strength. 
+Mira, my daughter often barged into my home office mid-call. "Daddy, come play with me", she'd say and I had to tell her "daddy is working, go play elsewhere". Those moments gave me tremendous guilt. My wife shouldered most of the childcare so I could focus. She's a champ. But I often felt I was taking advantage of her strength. 
 
 If Mira someday asks me, "why do you work so much?", I'd tell her I'm trying to give her the best life I can. But if I'm honest, part of it is ego. I want to prove to myself that I'm capable. That I can climb the ladder, not just for money but for meaning. 
 
