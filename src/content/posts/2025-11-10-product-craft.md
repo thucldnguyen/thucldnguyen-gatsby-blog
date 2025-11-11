@@ -34,7 +34,7 @@ This is the part of product management that **AI should automate**, and fast.
 - **Meeting summaries and updates** — Recaps, decision logs, and sprint notes can all be handled by generative tools.  
 - **Data analysis** — Once a slow dance with spreadsheets and SQL can now be performed through natural language prompts.  
 
-These are the *portrait-painter* parts of our craft — the ones that rely on precision, consistency, and discipline rather than creativity or judgment.  
+These are the *portrait-painting* parts of our craft — the ones that rely on precision, consistency, and discipline rather than creativity or judgment.  
 
 And just as photography freed painters from painting portraits for the rich, AI is freeing product managers from this layer of administrative labor. We’re being unshackled from our utilitarian past.
 
@@ -90,7 +90,8 @@ Maybe our new artistry lies not in managing backlogs, but in *designing relation
 Because at its core, product management has never been about documents, metrics, or rituals. It’s about *understanding people*. And in this new era, that understanding will matter more than ever.
 
 Our craft isn’t disappearing; it’s evolving.  
-We’re not just building products anymore — we’re building empathy into the systems that shape how people live, work, and dream.
+
+We’re not just building products anymore — we’re building **empathy** into the systems that shape how people live, work, and dream. In other words, building software is easy, building software that really cares and understands is the name of the game now. 
 
 ---
 
