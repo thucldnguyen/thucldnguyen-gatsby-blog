@@ -15,78 +15,67 @@ In it, she reminds us that mastery doesn’t vanish when technology evolves — 
 > In one sense, Delaroche was right — what died was the careers of those painters who photocopied what they saw.  
 > But in the broader sense, Delaroche was dead wrong. Photography unshackled painting from its utilitarian purpose.
 
-That line hit me hard. It made me think about what this shift means for product managers like us. What *utilitarian purpose* of product management should we now let go — and how might AI set us free from it?  
+That line hit me hard. It made me think about what this shift means for product managers like us. What *utilitarian purpose* of product management should we now let go — and, more importantly, how do we stay *relevant* in this new age?
 
 ---
 
-## The Utilitarian Purpose of Product
+## The Utilitarian Side of Product Work
 
-For years, our product craft has been very hands-on. We wrote specs. We organized roadmaps. We triaged bugs. We aligned people across teams and time zones. We ensured that everything — from vision to user story — fit neatly together.
+For years, our craft has been very hands-on: writing specs, triaging bugs, organizing backlogs, managing standups, ensuring cross-functional alignment. That’s where many of us found our pride and our flow — in the quiet art of connecting the dots.
 
-That’s where many of us found our pride and our flow: in the precision, the details, the quiet art of connecting dots between users, engineers, and the business.
+All of this work was important. It kept the engine running. It was the **utilitarian side** of product management — the operational glue that allowed engineers, designers, and stakeholders to move in sync.  
 
-All of that work, in essence, served a utilitarian purpose — to make sure engineers could pick up a Jira ticket and start coding right away. They should have prototypes ready. They should understand the “what” and the “why.” They should be able to make tough technical trade-offs on behalf of the customer.
+But let’s be honest: much of it is *busywork disguised as craftsmanship*. It’s about documentation, coordination, and process discipline — all of which are necessary, but not **sacred**.  
 
-This was the invisible scaffolding that held modern product development together. It *had* to exist. And we PMs were the ones holding it up.
+This is the part of product management that **AI should automate**, and fast.  
 
----
+- **Spec writing** — AI can now turn customer tickets, usage data, or survey results into draft PRDs in seconds.  
+- **Backlog triage** — Instead of manually sorting issues, AI can cluster, deduplicate, and prioritize based on impact or effort.  
+- **Meeting summaries and updates** — Recaps, decision logs, and sprint notes can all be handled by generative tools.  
+- **Data analysis** — Once a slow dance with spreadsheets and SQL can now be performed through natural language prompts.  
 
-## The Unshackling
+These are the *portrait-painter* parts of our craft — the ones that rely on precision, consistency, and discipline rather than creativity or judgment.  
 
-But now, AI is starting to automate more and more of those utilities.
-
-Engineers can prompt AI to write a PRD based on customer surveys or Mixpanel data. Designers can use tools like Figma Make to generate prototype variations in seconds. Data analysis, once a slow dance with spreadsheets and SQL, can be performed through natural language prompts.
-
-Suddenly, the scaffolding we spent years perfecting can be built by the system itself.
-
-So where do we fit in these days?
-
-It’s tempting to feel replaced. But maybe, like painters freed from copying reality, we’re being unshackled from our utilitarian past. Instead of being the ones who do every task, we become the ones who *design the systems* that do them — and bring human judgment, ethics, and empathy to how those systems learn.
+And just as photography freed painters from painting portraits for the rich, AI is freeing product managers from this layer of administrative labor. We’re being unshackled from our utilitarian past.
 
 ---
 
-## From Doing to Designing
+## The Great Unshackling
 
-The new craft of product is not about *doing more*. It’s about *designing better*.
+When we hand over the utilitarian layer to AI, we’re not losing our identity — we’re *reclaiming our purpose*.  
 
-* Instead of writing the perfect PRD, we’ll define the parameters of tools that can draft one.  
-* Instead of spending hours analyzing data, we’ll design feedback loops that surface insights automatically.  
-* Instead of loving to prioritize features ourselves, we’ll love teaching systems *how to prioritize*.  
-* Instead of trying to align every person manually, we’ll love aligning *humans and machines* around a shared vision.
+- We can spend less time maintaining Jira hygiene and more time understanding what keeps customers up at night.  
+- We can trade documentation loops for discovery loops.  
+- We can shift our energy from “keeping everyone in line" to *inspiring* everyone toward a shared vision.  
 
-It’s a little scary, but also kind of freeing. Because if AI can handle the mechanical side of product work, we finally have more space for the *human* side — the part machines can’t (and shouldn’t) replicate.
+That’s the great unshackling of our era. AI won’t replace product managers; it’ll remove the mechanical shell around the craft, leaving behind the part that’s most human — empathy, storytelling, and judgment.
 
----
-
-## The Human Side: Rediscovering Empathy
-
-At the end of the day, nobody wants to give product feedback to a chatbot. They want to be *heard* by another human being who can empathize — someone who can listen to the frustration behind their words, sense the emotion between the lines, and connect it to the broader picture of what the product is trying to achieve.
-
-That’s where we fit in.
-
-Empathy is what transforms a set of requirements into a real solution. It’s what allows us to see that a customer’s complaint about “too many clicks” is actually about *feeling overwhelmed* in a workflow. It’s what helps us mediate trade-offs — not between features, but between *human needs*.
-
-AI can model behavior. It can predict churn. But it can’t truly *care*.
-
-And in a world where users are increasingly surrounded by algorithms, that simple human ability — to care, to interpret, to connect — becomes our superpower.
+Because product management has never really been about writing perfect specs. It’s about *seeing* people — users, teammates, and stakeholders — and helping them move toward a better future together.
 
 ---
 
-## The Emotional Craft of Product
+## Rediscovering the Human Side
 
-In many ways, this shift back to empathy is a return to our roots. The best product managers have always been storytellers, diplomats, therapists, and translators. We’ve always sat in the middle — not just between teams, but between *human realities*.
+If AI takes over the mechanical parts, what remains is the *emotional, strategic, and moral* dimension of our work — the kind that no algorithm can replicate.  
 
-The future of our craft will double down on that. We’ll need to:
+Certain responsibilities still demand distinctly human judgment and taste:  
 
-- **Build trust** in systems that users don’t fully understand.  
-- **Balance automation and agency**, ensuring technology empowers rather than replaces.  
-- **Translate emotion into design**, helping teams see beyond data points to lived experiences.
+- **Defining the vision.** Machines can remix ideas, but only humans can articulate *why* something matters — the “why now” and “why it matters” stories that move teams forward.  
+- **Building roadmaps.** AI can simulate options, but only humans can weigh trade-offs between ethics, ambition, and organizational reality.  
+- **Talking to customers.** At the end of the day, nobody wants to give feedback to a chatbot. They want to be *heard* by another human being who can empathize — someone who listens for the frustration behind their words and senses the emotion between the lines. No chatbot can replace genuine curiosity, empathy, and the subtle intuition you get from a live conversation — from noticing what a customer *doesn’t* say. 
+- **Building trust and alignment.** Leadership is emotional work. People follow people, not chatbots.  
 
-This is not about being “softer” PMs. It’s about being *truer* ones — expanding our empathy from the surface level of user research to the systemic level of how people experience AI in their lives.
+Empathy is what transforms a set of requirements into a real solution. It’s what allows us to see that a customer’s complaint about “too many clicks” is actually about *feeling overwhelmed* in their workflow.  
+
+These are the areas where product managers must double down. This is our artistry.
 
 ---
 
 ## The Next Artistry
+
+In many ways, this shift back to empathy is a return to our roots. The best product managers have always been mini-CEOs — not because they run everything, but because they care the most.  
+
+This isn’t about being “softer” PMs. It’s about being *truer* ones — expanding our empathy beyond data points to how humans actually experience technology in their lives.
 
 Julie wrote:
 
@@ -94,14 +83,14 @@ Julie wrote:
 
 So what about us?
 
-Maybe the product manager who once obsessed over Jira tickets will now obsess over *how technology and humanity learn from each other*.
+Maybe the product manager who once obsessed over Jira tickets will now obsess over *how technology and humanity learn from each other*.  
 
-Maybe our new artistry is not in managing backlogs, but in *designing relationships* — between humans, systems, and the values that connect them.
+Maybe our new artistry lies not in managing backlogs, but in *designing relationships* — between humans, systems, and the values that connect them.
 
 Because at its core, product management has never been about documents, metrics, or rituals. It’s about *understanding people*. And in this new era, that understanding will matter more than ever.
 
 Our craft isn’t disappearing; it’s evolving.  
-We’re not just building products anymore — we’re building empathy into the systems that will shape how people live, work, and dream.
+We’re not just building products anymore — we’re building empathy into the systems that shape how people live, work, and dream.
 
 ---
 
@@ -128,7 +117,6 @@ Cops don’t need “likes.” What they *do* need is help finding the critical 
 That’s the kind of problem I’m working on — using AI to surface truth faster, while keeping the integrity of evidence intact. It’s not glamorous, but it’s deeply human work.  
 
 Because at the end of the day, empathy is what keeps us focused on solving *real* problems for *real* people.
-
 
 ---
 
